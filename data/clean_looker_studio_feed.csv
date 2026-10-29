@@ -1,0 +1,361 @@
+RecordID,Domain,ServiceName,Timestamp,Date,City,ResponseTimeMinutes,ServiceDurationMinutes,RevenueINR,CustomerRating,Urgent,EnergySavedKWh,WaterPurifiedLiters,CO2AvoidedKg,CloudSource
+REC-1001,Water,Water Tank Cleaning & Disinfection,2026-08-01T13:36:00.000Z,2026-08-01,Chennai,38.0,96,1460.0,4.9,Yes,2.15,2129,1.76,gcp-storage
+REC-1002,Health,Bathroom Deep Chemical Scrubbing,2026-08-01T19:12:00.000Z,2026-08-01,Kochi,42.0,102,860.0,4.9,No,0,0,0,azure-blob
+REC-1003,Energy,Home Electrical Audit & Wattage Check,2026-08-02T00:48:00.000Z,2026-08-02,Hyderabad,33.0,100,810.0,4.6,No,9.98,0,8.18,aws-s3
+REC-1004,Water,Pipeline Leakage & Flow Optimization,2026-08-02T06:24:00.000Z,2026-08-02,Mumbai,30.0,112,1050.0,4.8,No,6.3,1833,5.17,gcp-storage
+REC-1005,Energy,Smart Appliance Energy Optimization,2026-08-02T12:00:00.000Z,2026-08-02,Hyderabad,18.0,60,990.0,4.8,No,18.32,0,15.02,azure-blob
+REC-1006,Food,Kitchen Hygiene & Food Prep Audit,2026-08-02T17:36:00.000Z,2026-08-02,Chennai,31.0,84,930.0,4.8,No,0,0,0,aws-s3
+REC-1007,Food,Organic Meal Prep & Batch Cooking,2026-08-02T23:12:00.000Z,2026-08-02,Coimbatore,29.0,118,1000.0,4.4,Yes,0,0,0,gcp-storage
+REC-1008,Food,Certified Nutritionist Cook Service,2026-08-03T04:48:00.000Z,2026-08-03,Mumbai,34.0,80,500.0,4.7,Yes,0,0,0,azure-blob
+REC-1009,Water,Pipeline Leakage & Flow Optimization,2026-08-03T10:24:00.000Z,2026-08-03,Chennai,16.0,123,990.0,4.3,Yes,3.95,1806,3.24,aws-s3
+REC-1010,Health,Indoor Allergen & Mold Remediation,2026-08-03T16:00:00.000Z,2026-08-03,Bengaluru,41.0,85,1400.0,4.6,No,0,0,0,gcp-storage
+REC-1011,Water,Water Tank Cleaning & Disinfection,2026-08-03T21:36:00.000Z,2026-08-03,Kochi,34.0,97,1250.0,4.4,No,6.9,1361,5.66,azure-blob
+REC-1012,Food,Food Pantry Sanitation & Preservation,2026-08-04T03:12:00.000Z,2026-08-04,Bengaluru,54.0,122,630.0,5.0,Yes,0,0,0,aws-s3
+REC-1013,Water,Water Tank Cleaning & Disinfection,2026-08-04T08:48:00.000Z,2026-08-04,Hyderabad,15.0,96,1400.0,5.0,No,5.89,1552,4.83,gcp-storage
+REC-1014,Health,Bathroom Deep Chemical Scrubbing,2026-08-04T14:24:00.000Z,2026-08-04,Bengaluru,22.0,70,980.0,4.1,No,0,0,0,azure-blob
+REC-1015,Food,Organic Meal Prep & Batch Cooking,2026-08-04T20:00:00.000Z,2026-08-04,Mumbai,41.0,122,910.0,4.5,Yes,0,0,0,aws-s3
+REC-1016,Health,Bathroom Deep Chemical Scrubbing,2026-08-05T01:36:00.000Z,2026-08-05,Mumbai,42.0,111,910.0,4.6,No,0,0,0,gcp-storage
+REC-1017,Energy,Smart Appliance Energy Optimization,2026-08-05T07:12:00.000Z,2026-08-05,Chennai,46.0,45,1010.0,4.6,Yes,16.4,0,13.45,azure-blob
+REC-1018,Water,Pipeline Leakage & Flow Optimization,2026-08-05T12:48:00.000Z,2026-08-05,Chennai,49.0,106,1230.0,4.7,No,2.5,668,2.05,aws-s3
+REC-1019,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-08-05T18:24:00.000Z,2026-08-05,Coimbatore,26.0,46,1020.0,5.0,No,31.28,0,25.65,gcp-storage
+REC-1020,Energy,Solar Inverter & Battery Maintenance,2026-08-06T00:00:00.000Z,2026-08-06,Coimbatore,30.0,88,1670.0,4.9,No,26.76,0,21.94,azure-blob
+REC-1021,Water,Pipeline Leakage & Flow Optimization,2026-08-06T05:36:00.000Z,2026-08-06,Mumbai,48.0,53,980.0,4.3,Yes,2.19,1570,1.8,aws-s3
+REC-1022,Food,Kitchen Hygiene & Food Prep Audit,2026-08-06T11:12:00.000Z,2026-08-06,Kochi,39.0,97,820.0,4.9,No,0,0,0,gcp-storage
+REC-1023,Health,Indoor Allergen & Mold Remediation,2026-08-06T16:48:00.000Z,2026-08-06,Mumbai,18.0,125,1350.0,5.0,No,0,0,0,azure-blob
+REC-1024,Health,Indoor Allergen & Mold Remediation,2026-08-06T22:24:00.000Z,2026-08-06,Bengaluru,38.0,71,1530.0,4.5,No,0,0,0,aws-s3
+REC-1025,Water,Rainwater Filter & Recharge Service,2026-08-07T04:00:00.000Z,2026-08-07,Mumbai,41.0,109,1610.0,4.2,No,5.78,584,4.74,gcp-storage
+REC-1026,Water,Water Filter & RO Purifier Service,2026-08-07T09:36:00.000Z,2026-08-07,Coimbatore,35.0,103,1110.0,4.1,Yes,3.68,796,3.02,azure-blob
+REC-1027,Health,Eco Pest Control & Termite Defense,2026-08-07T15:12:00.000Z,2026-08-07,Chennai,57.0,51,810.0,4.4,No,0,0,0,aws-s3
+REC-1028,Health,Bathroom Deep Chemical Scrubbing,2026-08-07T20:48:00.000Z,2026-08-07,Kochi,38.0,107,780.0,4.7,No,0,0,0,gcp-storage
+REC-1029,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-08-08T02:24:00.000Z,2026-08-08,Hyderabad,31.0,51,1030.0,4.2,No,16.96,0,13.91,azure-blob
+REC-1030,Food,Kitchen Hygiene & Food Prep Audit,2026-08-08T08:00:00.000Z,2026-08-08,Coimbatore,40.0,100,900.0,4.7,No,0,0,0,aws-s3
+REC-1031,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-08-08T13:36:00.000Z,2026-08-08,Bengaluru,31.0,81,1060.0,4.4,No,29.3,0,24.03,gcp-storage
+REC-1032,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-08-08T19:12:00.000Z,2026-08-08,Coimbatore,56.0,93,990.0,4.4,No,22.99,0,18.85,azure-blob
+REC-1033,Health,Bathroom Deep Chemical Scrubbing,2026-08-09T00:48:00.000Z,2026-08-09,Mumbai,40.0,53,840.0,4.0,Yes,0,0,0,aws-s3
+REC-1034,Water,Pipeline Leakage & Flow Optimization,2026-08-09T06:24:00.000Z,2026-08-09,Kochi,31.0,110,1230.0,4.2,Yes,3.11,1356,2.55,gcp-storage
+REC-1035,Water,Water Filter & RO Purifier Service,2026-08-09T12:00:00.000Z,2026-08-09,Bengaluru,29.0,118,1000.0,4.3,No,4.22,1251,3.46,azure-blob
+REC-1036,Health,Indoor Allergen & Mold Remediation,2026-08-09T17:36:00.000Z,2026-08-09,Chennai,37.0,46,1330.0,4.6,Yes,0,0,0,aws-s3
+REC-1037,Food,Organic Meal Prep & Batch Cooking,2026-08-09T23:12:00.000Z,2026-08-09,Mumbai,48.0,87,830.0,4.1,No,0,0,0,gcp-storage
+REC-1038,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-08-10T04:48:00.000Z,2026-08-10,Kochi,45.0,76,1090.0,4.1,Yes,28.01,0,22.97,azure-blob
+REC-1039,Water,Rainwater Filter & Recharge Service,2026-08-10T10:24:00.000Z,2026-08-10,Mumbai,38.0,104,1600.0,4.5,No,5.4,500,4.43,aws-s3
+REC-1040,Food,Certified Nutritionist Cook Service,2026-08-10T16:00:00.000Z,2026-08-10,Chennai,16.0,69,500.0,4.5,No,0,0,0,gcp-storage
+REC-1041,Energy,Home Electrical Audit & Wattage Check,2026-08-10T21:36:00.000Z,2026-08-10,Hyderabad,21.0,57,620.0,4.7,Yes,25.5,0,20.91,azure-blob
+REC-1042,Food,Food Pantry Sanitation & Preservation,2026-08-11T03:12:00.000Z,2026-08-11,Mumbai,55.0,49,830.0,4.6,No,0,0,0,aws-s3
+REC-1043,Food,Certified Nutritionist Cook Service,2026-08-11T08:48:00.000Z,2026-08-11,Mumbai,58.0,43,470.0,4.3,No,0,0,0,gcp-storage
+REC-1044,Health,Bathroom Deep Chemical Scrubbing,2026-08-11T14:24:00.000Z,2026-08-11,Coimbatore,56.0,77,930.0,4.2,No,0,0,0,azure-blob
+REC-1045,Food,Organic Meal Prep & Batch Cooking,2026-08-11T20:00:00.000Z,2026-08-11,Chennai,54.0,94,890.0,4.7,No,0,0,0,aws-s3
+REC-1046,Energy,Smart Appliance Energy Optimization,2026-08-12T01:36:00.000Z,2026-08-12,Hyderabad,45.0,82,890.0,4.4,Yes,16.1,0,13.2,gcp-storage
+REC-1047,Food,Food Pantry Sanitation & Preservation,2026-08-12T07:12:00.000Z,2026-08-12,Mumbai,26.0,40,830.0,4.3,Yes,0,0,0,azure-blob
+REC-1048,Food,Kitchen Hygiene & Food Prep Audit,2026-08-12T12:48:00.000Z,2026-08-12,Coimbatore,52.0,85,930.0,4.2,Yes,0,0,0,aws-s3
+REC-1049,Water,Water Tank Cleaning & Disinfection,2026-08-12T18:24:00.000Z,2026-08-12,Coimbatore,28.0,43,1320.0,4.8,No,7,1279,5.74,gcp-storage
+REC-1050,Health,Bathroom Deep Chemical Scrubbing,2026-08-13T00:00:00.000Z,2026-08-13,Kochi,20.0,76,850.0,4.4,No,0,0,0,azure-blob
+REC-1051,Energy,Home Electrical Audit & Wattage Check,2026-08-13T05:36:00.000Z,2026-08-13,Coimbatore,24.0,119,660.0,4.9,No,28.49,0,23.36,aws-s3
+REC-1052,Energy,Smart Appliance Energy Optimization,2026-08-13T11:12:00.000Z,2026-08-13,Chennai,53.0,71,1020.0,4.5,Yes,10.53,0,8.63,gcp-storage
+REC-1053,Food,Food Pantry Sanitation & Preservation,2026-08-13T16:48:00.000Z,2026-08-13,Coimbatore,26.0,52,870.0,4.8,No,0,0,0,azure-blob
+REC-1054,Energy,Smart Appliance Energy Optimization,2026-08-13T22:24:00.000Z,2026-08-13,Hyderabad,24.0,101,930.0,4.4,No,25.31,0,20.75,aws-s3
+REC-1055,Water,Water Filter & RO Purifier Service,2026-08-14T04:00:00.000Z,2026-08-14,Chennai,39.0,68,880.0,4.2,No,5.5,1756,4.51,gcp-storage
+REC-1056,Water,Rainwater Filter & Recharge Service,2026-08-14T09:36:00.000Z,2026-08-14,Coimbatore,37.0,48,1490.0,4.2,No,4.01,1861,3.29,azure-blob
+REC-1057,Energy,Smart Appliance Energy Optimization,2026-08-14T15:12:00.000Z,2026-08-14,Bengaluru,17.0,42,800.0,4.1,No,21.48,0,17.61,aws-s3
+REC-1058,Energy,Solar Inverter & Battery Maintenance,2026-08-14T20:48:00.000Z,2026-08-14,Kochi,33.0,105,1600.0,4.2,Yes,9.5,0,7.79,gcp-storage
+REC-1059,Health,Bathroom Deep Chemical Scrubbing,2026-08-15T02:24:00.000Z,2026-08-15,Bengaluru,50.0,107,700.0,4.8,Yes,0,0,0,azure-blob
+REC-1060,Water,Pipeline Leakage & Flow Optimization,2026-08-15T08:00:00.000Z,2026-08-15,Coimbatore,42.0,52,1200.0,4.9,No,3.12,2226,2.56,aws-s3
+REC-1061,Health,Indoor Allergen & Mold Remediation,2026-08-15T13:36:00.000Z,2026-08-15,Chennai,30.0,102,1330.0,4.4,No,0,0,0,gcp-storage
+REC-1062,Food,Kitchen Hygiene & Food Prep Audit,2026-08-15T19:12:00.000Z,2026-08-15,Mumbai,27.0,62,830.0,4.7,Yes,0,0,0,azure-blob
+REC-1063,Water,Water Tank Cleaning & Disinfection,2026-08-16T00:48:00.000Z,2026-08-16,Mumbai,15.0,107,1290.0,4.5,No,6.32,1507,5.18,aws-s3
+REC-1064,Water,Pipeline Leakage & Flow Optimization,2026-08-16T06:24:00.000Z,2026-08-16,Chennai,26.0,51,1020.0,4.2,Yes,5.67,1307,4.65,gcp-storage
+REC-1065,Energy,Home Electrical Audit & Wattage Check,2026-08-16T12:00:00.000Z,2026-08-16,Kochi,37.0,67,550.0,4.3,Yes,19.64,0,16.1,azure-blob
+REC-1066,Energy,Smart Appliance Energy Optimization,2026-08-16T17:36:00.000Z,2026-08-16,Coimbatore,43.0,80,850.0,4.0,No,26.2,0,21.48,aws-s3
+REC-1067,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-08-16T23:12:00.000Z,2026-08-16,Coimbatore,19.0,94,910.0,4.4,Yes,23.48,0,19.25,gcp-storage
+REC-1068,Water,Water Filter & RO Purifier Service,2026-08-17T04:48:00.000Z,2026-08-17,Coimbatore,19.0,64,880.0,4.8,No,6.21,2475,5.09,azure-blob
+REC-1069,Water,Water Filter & RO Purifier Service,2026-08-17T10:24:00.000Z,2026-08-17,Coimbatore,28.0,123,950.0,4.5,Yes,3.02,1132,2.48,aws-s3
+REC-1070,Food,Certified Nutritionist Cook Service,2026-08-17T16:00:00.000Z,2026-08-17,Coimbatore,35.0,42,440.0,5.0,Yes,0,0,0,gcp-storage
+REC-1071,Energy,Solar Inverter & Battery Maintenance,2026-08-17T21:36:00.000Z,2026-08-17,Kochi,17.0,86,1510.0,4.9,No,12.99,0,10.65,azure-blob
+REC-1072,Water,Pipeline Leakage & Flow Optimization,2026-08-18T03:12:00.000Z,2026-08-18,Hyderabad,44.0,78,1110.0,4.9,Yes,3.81,1351,3.12,aws-s3
+REC-1073,Water,Water Tank Cleaning & Disinfection,2026-08-18T08:48:00.000Z,2026-08-18,Kochi,27.0,66,1310.0,4.1,Yes,4.12,1347,3.38,gcp-storage
+REC-1074,Health,Eco Pest Control & Termite Defense,2026-08-18T14:24:00.000Z,2026-08-18,Coimbatore,41.0,62,960.0,4.8,Yes,0,0,0,azure-blob
+REC-1075,Food,Organic Meal Prep & Batch Cooking,2026-08-18T20:00:00.000Z,2026-08-18,Chennai,44.0,48,1030.0,4.8,No,0,0,0,aws-s3
+REC-1076,Energy,Home Electrical Audit & Wattage Check,2026-08-19T01:36:00.000Z,2026-08-19,Hyderabad,25.0,129,680.0,4.9,No,24.82,0,20.35,gcp-storage
+REC-1077,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-08-19T07:12:00.000Z,2026-08-19,Hyderabad,47.0,108,1060.0,4.9,Yes,8.88,0,7.28,azure-blob
+REC-1078,Health,Indoor Allergen & Mold Remediation,2026-08-19T12:48:00.000Z,2026-08-19,Coimbatore,38.0,109,1350.0,4.9,Yes,0,0,0,aws-s3
+REC-1079,Water,Rainwater Filter & Recharge Service,2026-08-19T18:24:00.000Z,2026-08-19,Hyderabad,18.0,92,1620.0,4.6,No,5.78,1601,4.74,gcp-storage
+REC-1080,Water,Rainwater Filter & Recharge Service,2026-08-20T00:00:00.000Z,2026-08-20,Hyderabad,39.0,127,1550.0,4.6,No,2.77,568,2.27,azure-blob
+REC-1081,Water,Water Filter & RO Purifier Service,2026-08-20T05:36:00.000Z,2026-08-20,Hyderabad,55.0,59,1130.0,4.8,Yes,6.7,1728,5.49,aws-s3
+REC-1082,Health,Bathroom Deep Chemical Scrubbing,2026-08-20T11:12:00.000Z,2026-08-20,Mumbai,28.0,72,790.0,4.2,Yes,0,0,0,gcp-storage
+REC-1083,Health,Bathroom Deep Chemical Scrubbing,2026-08-20T16:48:00.000Z,2026-08-20,Kochi,17.0,79,940.0,4.9,Yes,0,0,0,azure-blob
+REC-1084,Food,Organic Meal Prep & Batch Cooking,2026-08-20T22:24:00.000Z,2026-08-20,Hyderabad,26.0,49,910.0,4.4,No,0,0,0,aws-s3
+REC-1085,Water,Rainwater Filter & Recharge Service,2026-08-21T04:00:00.000Z,2026-08-21,Coimbatore,29.0,80,1410.0,4.5,No,3.3,1837,2.71,gcp-storage
+REC-1086,Food,Food Pantry Sanitation & Preservation,2026-08-21T09:36:00.000Z,2026-08-21,Hyderabad,52.0,80,610.0,4.1,No,0,0,0,azure-blob
+REC-1087,Health,Eco Pest Control & Termite Defense,2026-08-21T15:12:00.000Z,2026-08-21,Coimbatore,52.0,117,850.0,4.6,Yes,0,0,0,aws-s3
+REC-1088,Health,Deep Clinical Sanitization,2026-08-21T20:48:00.000Z,2026-08-21,Chennai,50.0,98,1370.0,4.0,No,0,0,0,gcp-storage
+REC-1089,Health,Indoor Allergen & Mold Remediation,2026-08-22T02:24:00.000Z,2026-08-22,Kochi,29.0,48,1370.0,4.3,No,0,0,0,azure-blob
+REC-1090,Food,Food Pantry Sanitation & Preservation,2026-08-22T08:00:00.000Z,2026-08-22,Hyderabad,22.0,117,670.0,4.6,No,0,0,0,aws-s3
+REC-1091,Health,Indoor Allergen & Mold Remediation,2026-08-22T13:36:00.000Z,2026-08-22,Mumbai,20.0,123,1450.0,4.4,Yes,0,0,0,gcp-storage
+REC-1092,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-08-22T19:12:00.000Z,2026-08-22,Kochi,40.0,66,950.0,4.9,No,15.71,0,12.88,azure-blob
+REC-1093,Health,Bathroom Deep Chemical Scrubbing,2026-08-23T00:48:00.000Z,2026-08-23,Hyderabad,39.0,107,980.0,4.2,Yes,0,0,0,aws-s3
+REC-1094,Water,Rainwater Filter & Recharge Service,2026-08-23T06:24:00.000Z,2026-08-23,Hyderabad,27.0,55,1620.0,5.0,No,5.34,1108,4.38,gcp-storage
+REC-1095,Health,Deep Clinical Sanitization,2026-08-23T12:00:00.000Z,2026-08-23,Bengaluru,44.0,68,1290.0,4.9,Yes,0,0,0,azure-blob
+REC-1096,Health,Eco Pest Control & Termite Defense,2026-08-23T17:36:00.000Z,2026-08-23,Mumbai,28.0,45,1070.0,4.8,No,0,0,0,aws-s3
+REC-1097,Food,Kitchen Hygiene & Food Prep Audit,2026-08-23T23:12:00.000Z,2026-08-23,Coimbatore,42.0,103,890.0,4.1,No,0,0,0,gcp-storage
+REC-1098,Energy,Home Electrical Audit & Wattage Check,2026-08-24T04:48:00.000Z,2026-08-24,Bengaluru,42.0,113,700.0,4.1,Yes,14.83,0,12.16,azure-blob
+REC-1099,Food,Organic Meal Prep & Batch Cooking,2026-08-24T10:24:00.000Z,2026-08-24,Kochi,20.0,129,920.0,4.2,Yes,0,0,0,aws-s3
+REC-1100,Food,Organic Meal Prep & Batch Cooking,2026-08-24T16:00:00.000Z,2026-08-24,Hyderabad,40.0,88,750.0,4.7,Yes,0,0,0,gcp-storage
+REC-1101,Water,Water Filter & RO Purifier Service,2026-08-24T21:36:00.000Z,2026-08-24,Bengaluru,51.0,74,1020.0,4.2,No,3.76,1034,3.08,azure-blob
+REC-1102,Health,Bathroom Deep Chemical Scrubbing,2026-08-25T03:12:00.000Z,2026-08-25,Mumbai,49.0,115,920.0,4.3,No,0,0,0,aws-s3
+REC-1103,Food,Certified Nutritionist Cook Service,2026-08-25T08:48:00.000Z,2026-08-25,Coimbatore,35.0,76,690.0,4.7,Yes,0,0,0,gcp-storage
+REC-1104,Health,Indoor Allergen & Mold Remediation,2026-08-25T14:24:00.000Z,2026-08-25,Coimbatore,38.0,59,1590.0,4.0,Yes,0,0,0,azure-blob
+REC-1105,Health,Indoor Allergen & Mold Remediation,2026-08-25T20:00:00.000Z,2026-08-25,Bengaluru,44.0,65,1570.0,4.8,No,0,0,0,aws-s3
+REC-1106,Health,Indoor Allergen & Mold Remediation,2026-08-26T01:36:00.000Z,2026-08-26,Mumbai,22.0,50,1500.0,4.3,No,0,0,0,gcp-storage
+REC-1107,Health,Deep Clinical Sanitization,2026-08-26T07:12:00.000Z,2026-08-26,Bengaluru,33.0,110,1130.0,4.3,No,0,0,0,azure-blob
+REC-1108,Food,Organic Meal Prep & Batch Cooking,2026-08-26T12:48:00.000Z,2026-08-26,Mumbai,57.0,60,800.0,4.1,No,0,0,0,aws-s3
+REC-1109,Water,Water Filter & RO Purifier Service,2026-08-26T18:24:00.000Z,2026-08-26,Coimbatore,51.0,64,880.0,4.3,No,4.16,2274,3.41,gcp-storage
+REC-1110,Energy,Home Electrical Audit & Wattage Check,2026-08-27T00:00:00.000Z,2026-08-27,Chennai,23.0,70,810.0,4.9,No,32.46,0,26.62,azure-blob
+REC-1111,Food,Food Pantry Sanitation & Preservation,2026-08-27T05:36:00.000Z,2026-08-27,Bengaluru,38.0,74,830.0,4.7,Yes,0,0,0,aws-s3
+REC-1112,Water,Water Filter & RO Purifier Service,2026-08-27T11:12:00.000Z,2026-08-27,Bengaluru,34.0,58,900.0,4.7,No,2.77,2180,2.27,gcp-storage
+REC-1113,Water,Water Filter & RO Purifier Service,2026-08-27T16:48:00.000Z,2026-08-27,Kochi,38.0,54,920.0,5.0,No,2.87,1537,2.35,azure-blob
+REC-1114,Health,Indoor Allergen & Mold Remediation,2026-08-27T22:24:00.000Z,2026-08-27,Kochi,30.0,52,1560.0,4.0,Yes,0,0,0,aws-s3
+REC-1115,Water,Water Tank Cleaning & Disinfection,2026-08-28T04:00:00.000Z,2026-08-28,Hyderabad,20.0,56,1330.0,4.4,Yes,5.42,1981,4.44,gcp-storage
+REC-1116,Energy,Home Electrical Audit & Wattage Check,2026-08-28T09:36:00.000Z,2026-08-28,Coimbatore,23.0,104,780.0,4.6,Yes,28.61,0,23.46,azure-blob
+REC-1117,Water,Water Filter & RO Purifier Service,2026-08-28T15:12:00.000Z,2026-08-28,Chennai,57.0,88,980.0,4.9,No,4.63,2177,3.8,aws-s3
+REC-1118,Health,Bathroom Deep Chemical Scrubbing,2026-08-28T20:48:00.000Z,2026-08-28,Chennai,59.0,83,730.0,4.8,Yes,0,0,0,gcp-storage
+REC-1119,Energy,Smart Appliance Energy Optimization,2026-08-29T02:24:00.000Z,2026-08-29,Hyderabad,22.0,90,860.0,4.4,No,13.91,0,11.41,azure-blob
+REC-1120,Health,Deep Clinical Sanitization,2026-08-29T08:00:00.000Z,2026-08-29,Kochi,47.0,67,1300.0,4.3,Yes,0,0,0,aws-s3
+REC-1121,Food,Kitchen Hygiene & Food Prep Audit,2026-08-29T13:36:00.000Z,2026-08-29,Kochi,25.0,120,780.0,4.7,Yes,0,0,0,gcp-storage
+REC-1122,Water,Rainwater Filter & Recharge Service,2026-08-29T19:12:00.000Z,2026-08-29,Bengaluru,49.0,113,1550.0,4.8,No,2.28,1546,1.87,azure-blob
+REC-1123,Food,Food Pantry Sanitation & Preservation,2026-08-30T00:48:00.000Z,2026-08-30,Mumbai,57.0,92,740.0,5.0,No,0,0,0,aws-s3
+REC-1124,Food,Food Pantry Sanitation & Preservation,2026-08-30T06:24:00.000Z,2026-08-30,Hyderabad,24.0,90,790.0,4.7,No,0,0,0,gcp-storage
+REC-1125,Health,Deep Clinical Sanitization,2026-08-30T12:00:00.000Z,2026-08-30,Mumbai,48.0,84,1210.0,5.0,No,0,0,0,azure-blob
+REC-1126,Energy,Solar Inverter & Battery Maintenance,2026-08-30T17:36:00.000Z,2026-08-30,Bengaluru,47.0,119,1500.0,4.5,Yes,20.32,0,16.66,aws-s3
+REC-1127,Water,Water Tank Cleaning & Disinfection,2026-08-30T23:12:00.000Z,2026-08-30,Bengaluru,42.0,105,1370.0,4.1,No,5,1736,4.1,gcp-storage
+REC-1128,Food,Organic Meal Prep & Batch Cooking,2026-08-31T04:48:00.000Z,2026-08-31,Coimbatore,50.0,107,850.0,4.7,No,0,0,0,azure-blob
+REC-1129,Water,Water Tank Cleaning & Disinfection,2026-08-31T10:24:00.000Z,2026-08-31,Bengaluru,32.0,120,1370.0,4.2,No,4.54,1440,3.72,aws-s3
+REC-1130,Water,Rainwater Filter & Recharge Service,2026-08-31T16:00:00.000Z,2026-08-31,Kochi,45.0,57,1430.0,4.9,Yes,2.36,1050,1.94,gcp-storage
+REC-1131,Health,Deep Clinical Sanitization,2026-08-31T21:36:00.000Z,2026-08-31,Mumbai,42.0,52,1260.0,4.0,No,0,0,0,azure-blob
+REC-1132,Health,Bathroom Deep Chemical Scrubbing,2026-09-01T03:12:00.000Z,2026-09-01,Chennai,59.0,123,910.0,4.6,No,0,0,0,aws-s3
+REC-1133,Food,Food Pantry Sanitation & Preservation,2026-09-01T08:48:00.000Z,2026-09-01,Hyderabad,17.0,64,670.0,4.0,No,0,0,0,gcp-storage
+REC-1134,Health,Eco Pest Control & Termite Defense,2026-09-01T14:24:00.000Z,2026-09-01,Kochi,55.0,41,1040.0,4.3,No,0,0,0,azure-blob
+REC-1135,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-09-01T20:00:00.000Z,2026-09-01,Bengaluru,34.0,75,920.0,4.1,No,30.61,0,25.1,aws-s3
+REC-1136,Food,Food Pantry Sanitation & Preservation,2026-09-02T01:36:00.000Z,2026-09-02,Coimbatore,17.0,58,810.0,4.3,Yes,0,0,0,gcp-storage
+REC-1137,Health,Indoor Allergen & Mold Remediation,2026-09-02T07:12:00.000Z,2026-09-02,Kochi,49.0,72,1570.0,4.1,No,0,0,0,azure-blob
+REC-1138,Health,Deep Clinical Sanitization,2026-09-02T12:48:00.000Z,2026-09-02,Kochi,41.0,86,1390.0,4.3,No,0,0,0,aws-s3
+REC-1139,Health,Bathroom Deep Chemical Scrubbing,2026-09-02T18:24:00.000Z,2026-09-02,Bengaluru,47.0,73,840.0,4.3,Yes,0,0,0,gcp-storage
+REC-1140,Water,Water Tank Cleaning & Disinfection,2026-09-03T00:00:00.000Z,2026-09-03,Kochi,53.0,109,1290.0,4.1,No,3.29,2429,2.7,azure-blob
+REC-1141,Food,Food Pantry Sanitation & Preservation,2026-09-03T05:36:00.000Z,2026-09-03,Coimbatore,59.0,120,600.0,4.7,No,0,0,0,aws-s3
+REC-1142,Health,Bathroom Deep Chemical Scrubbing,2026-09-03T11:12:00.000Z,2026-09-03,Hyderabad,21.0,59,910.0,4.1,No,0,0,0,gcp-storage
+REC-1143,Health,Bathroom Deep Chemical Scrubbing,2026-09-03T16:48:00.000Z,2026-09-03,Coimbatore,25.0,111,790.0,4.1,Yes,0,0,0,azure-blob
+REC-1144,Water,Pipeline Leakage & Flow Optimization,2026-09-03T22:24:00.000Z,2026-09-03,Kochi,43.0,55,990.0,4.2,No,5.69,1124,4.67,aws-s3
+REC-1145,Food,Kitchen Hygiene & Food Prep Audit,2026-09-04T04:00:00.000Z,2026-09-04,Coimbatore,47.0,98,810.0,4.8,No,0,0,0,gcp-storage
+REC-1146,Water,Pipeline Leakage & Flow Optimization,2026-09-04T09:36:00.000Z,2026-09-04,Bengaluru,54.0,72,990.0,4.3,Yes,6.07,1878,4.98,azure-blob
+REC-1147,Food,Certified Nutritionist Cook Service,2026-09-04T15:12:00.000Z,2026-09-04,Bengaluru,44.0,40,630.0,4.3,Yes,0,0,0,aws-s3
+REC-1148,Energy,Home Electrical Audit & Wattage Check,2026-09-04T20:48:00.000Z,2026-09-04,Chennai,39.0,125,560.0,4.8,Yes,8.28,0,6.79,gcp-storage
+REC-1149,Water,Pipeline Leakage & Flow Optimization,2026-09-05T02:24:00.000Z,2026-09-05,Kochi,23.0,78,1200.0,4.3,No,6.9,1746,5.66,azure-blob
+REC-1150,Health,Eco Pest Control & Termite Defense,2026-09-05T08:00:00.000Z,2026-09-05,Coimbatore,48.0,105,960.0,4.9,Yes,0,0,0,aws-s3
+REC-1151,Health,Bathroom Deep Chemical Scrubbing,2026-09-05T13:36:00.000Z,2026-09-05,Chennai,39.0,109,780.0,4.9,No,0,0,0,gcp-storage
+REC-1152,Food,Kitchen Hygiene & Food Prep Audit,2026-09-05T19:12:00.000Z,2026-09-05,Kochi,23.0,128,790.0,4.3,No,0,0,0,azure-blob
+REC-1153,Water,Rainwater Filter & Recharge Service,2026-09-06T00:48:00.000Z,2026-09-06,Hyderabad,24.0,83,1490.0,4.7,Yes,2.53,1062,2.07,aws-s3
+REC-1154,Water,Pipeline Leakage & Flow Optimization,2026-09-06T06:24:00.000Z,2026-09-06,Chennai,58.0,104,1180.0,4.4,No,3.72,1584,3.05,gcp-storage
+REC-1155,Food,Food Pantry Sanitation & Preservation,2026-09-06T12:00:00.000Z,2026-09-06,Coimbatore,26.0,79,600.0,4.9,Yes,0,0,0,azure-blob
+REC-1156,Health,Bathroom Deep Chemical Scrubbing,2026-09-06T17:36:00.000Z,2026-09-06,Hyderabad,18.0,72,790.0,4.1,No,0,0,0,aws-s3
+REC-1157,Water,Water Filter & RO Purifier Service,2026-09-06T23:12:00.000Z,2026-09-06,Mumbai,16.0,52,990.0,4.8,No,2.9,842,2.38,gcp-storage
+REC-1158,Energy,Solar Inverter & Battery Maintenance,2026-09-07T04:48:00.000Z,2026-09-07,Coimbatore,42.0,108,1600.0,4.5,Yes,8.58,0,7.04,azure-blob
+REC-1159,Water,Water Filter & RO Purifier Service,2026-09-07T10:24:00.000Z,2026-09-07,Kochi,53.0,113,900.0,4.1,Yes,3.49,792,2.86,aws-s3
+REC-1160,Health,Bathroom Deep Chemical Scrubbing,2026-09-07T16:00:00.000Z,2026-09-07,Kochi,58.0,86,830.0,5.0,Yes,0,0,0,gcp-storage
+REC-1161,Water,Water Tank Cleaning & Disinfection,2026-09-07T21:36:00.000Z,2026-09-07,Coimbatore,20.0,66,1400.0,4.4,No,4.28,696,3.51,azure-blob
+REC-1162,Food,Organic Meal Prep & Batch Cooking,2026-09-08T03:12:00.000Z,2026-09-08,Hyderabad,41.0,108,930.0,4.3,No,0,0,0,aws-s3
+REC-1163,Food,Organic Meal Prep & Batch Cooking,2026-09-08T08:48:00.000Z,2026-09-08,Hyderabad,52.0,53,830.0,4.5,No,0,0,0,gcp-storage
+REC-1164,Water,Water Filter & RO Purifier Service,2026-09-08T14:24:00.000Z,2026-09-08,Mumbai,31.0,113,850.0,5.0,No,4.58,2251,3.76,azure-blob
+REC-1165,Food,Organic Meal Prep & Batch Cooking,2026-09-08T20:00:00.000Z,2026-09-08,Coimbatore,45.0,71,1020.0,4.9,Yes,0,0,0,aws-s3
+REC-1166,Water,Rainwater Filter & Recharge Service,2026-09-09T01:36:00.000Z,2026-09-09,Bengaluru,45.0,114,1610.0,4.3,No,4.77,1096,3.91,gcp-storage
+REC-1167,Food,Certified Nutritionist Cook Service,2026-09-09T07:12:00.000Z,2026-09-09,Hyderabad,50.0,77,610.0,4.8,Yes,0,0,0,azure-blob
+REC-1168,Food,Kitchen Hygiene & Food Prep Audit,2026-09-09T12:48:00.000Z,2026-09-09,Mumbai,59.0,63,730.0,4.2,No,0,0,0,aws-s3
+REC-1169,Health,Deep Clinical Sanitization,2026-09-09T18:24:00.000Z,2026-09-09,Chennai,26.0,93,1170.0,4.2,Yes,0,0,0,gcp-storage
+REC-1170,Food,Kitchen Hygiene & Food Prep Audit,2026-09-10T00:00:00.000Z,2026-09-10,Chennai,56.0,46,860.0,4.3,No,0,0,0,azure-blob
+REC-1171,Energy,Smart Appliance Energy Optimization,2026-09-10T05:36:00.000Z,2026-09-10,Coimbatore,45.0,100,980.0,4.3,No,20.89,0,17.13,aws-s3
+REC-1172,Energy,Smart Appliance Energy Optimization,2026-09-10T11:12:00.000Z,2026-09-10,Hyderabad,49.0,118,920.0,4.7,No,16.73,0,13.72,gcp-storage
+REC-1173,Energy,Solar Inverter & Battery Maintenance,2026-09-10T16:48:00.000Z,2026-09-10,Kochi,40.0,125,1590.0,4.9,Yes,22.81,0,18.7,azure-blob
+REC-1174,Water,Water Tank Cleaning & Disinfection,2026-09-10T22:24:00.000Z,2026-09-10,Kochi,48.0,104,1220.0,4.3,No,5.49,1315,4.5,aws-s3
+REC-1175,Food,Organic Meal Prep & Batch Cooking,2026-09-11T04:00:00.000Z,2026-09-11,Bengaluru,18.0,69,860.0,4.1,No,0,0,0,gcp-storage
+REC-1176,Energy,Home Electrical Audit & Wattage Check,2026-09-11T09:36:00.000Z,2026-09-11,Kochi,47.0,115,680.0,4.9,No,24.88,0,20.4,azure-blob
+REC-1177,Food,Organic Meal Prep & Batch Cooking,2026-09-11T15:12:00.000Z,2026-09-11,Coimbatore,59.0,48,890.0,4.3,No,0,0,0,aws-s3
+REC-1178,Food,Organic Meal Prep & Batch Cooking,2026-09-11T20:48:00.000Z,2026-09-11,Kochi,36.0,119,760.0,4.1,No,0,0,0,gcp-storage
+REC-1179,Energy,Solar Inverter & Battery Maintenance,2026-09-12T02:24:00.000Z,2026-09-12,Mumbai,20.0,112,1580.0,4.3,Yes,15.24,0,12.5,azure-blob
+REC-1180,Food,Food Pantry Sanitation & Preservation,2026-09-12T08:00:00.000Z,2026-09-12,Bengaluru,23.0,65,650.0,4.0,No,0,0,0,aws-s3
+REC-1181,Food,Certified Nutritionist Cook Service,2026-09-12T13:36:00.000Z,2026-09-12,Mumbai,42.0,125,520.0,4.7,Yes,0,0,0,gcp-storage
+REC-1182,Health,Eco Pest Control & Termite Defense,2026-09-12T19:12:00.000Z,2026-09-12,Bengaluru,43.0,102,830.0,5.0,No,0,0,0,azure-blob
+REC-1183,Energy,Home Electrical Audit & Wattage Check,2026-09-13T00:48:00.000Z,2026-09-13,Hyderabad,17.0,62,650.0,5.0,Yes,19.59,0,16.06,aws-s3
+REC-1184,Health,Indoor Allergen & Mold Remediation,2026-09-13T06:24:00.000Z,2026-09-13,Kochi,45.0,108,1560.0,4.2,Yes,0,0,0,gcp-storage
+REC-1185,Energy,Smart Appliance Energy Optimization,2026-09-13T12:00:00.000Z,2026-09-13,Kochi,26.0,67,1020.0,4.2,Yes,9.98,0,8.18,azure-blob
+REC-1186,Health,Indoor Allergen & Mold Remediation,2026-09-13T17:36:00.000Z,2026-09-13,Hyderabad,22.0,79,1340.0,4.8,Yes,0,0,0,aws-s3
+REC-1187,Food,Organic Meal Prep & Batch Cooking,2026-09-13T23:12:00.000Z,2026-09-13,Coimbatore,51.0,82,750.0,4.6,Yes,0,0,0,gcp-storage
+REC-1188,Water,Pipeline Leakage & Flow Optimization,2026-09-14T04:48:00.000Z,2026-09-14,Bengaluru,39.0,88,1230.0,4.4,No,6.47,1721,5.31,azure-blob
+REC-1189,Water,Water Filter & RO Purifier Service,2026-09-14T10:24:00.000Z,2026-09-14,Chennai,27.0,85,950.0,4.3,No,3.47,803,2.85,aws-s3
+REC-1190,Health,Bathroom Deep Chemical Scrubbing,2026-09-14T16:00:00.000Z,2026-09-14,Bengaluru,19.0,93,820.0,4.4,Yes,0,0,0,gcp-storage
+REC-1191,Energy,Solar Inverter & Battery Maintenance,2026-09-14T21:36:00.000Z,2026-09-14,Chennai,15.0,128,1510.0,4.6,No,17.17,0,14.08,azure-blob
+REC-1192,Health,Indoor Allergen & Mold Remediation,2026-09-15T03:12:00.000Z,2026-09-15,Bengaluru,18.0,47,1560.0,4.3,No,0,0,0,aws-s3
+REC-1193,Food,Organic Meal Prep & Batch Cooking,2026-09-15T08:48:00.000Z,2026-09-15,Kochi,15.0,110,840.0,4.3,No,0,0,0,gcp-storage
+REC-1194,Food,Certified Nutritionist Cook Service,2026-09-15T14:24:00.000Z,2026-09-15,Mumbai,21.0,89,460.0,4.8,No,0,0,0,azure-blob
+REC-1195,Health,Deep Clinical Sanitization,2026-09-15T20:00:00.000Z,2026-09-15,Coimbatore,41.0,68,1390.0,4.9,No,0,0,0,aws-s3
+REC-1196,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-09-16T01:36:00.000Z,2026-09-16,Mumbai,48.0,129,1050.0,4.9,No,32.54,0,26.68,gcp-storage
+REC-1197,Water,Water Tank Cleaning & Disinfection,2026-09-16T07:12:00.000Z,2026-09-16,Bengaluru,22.0,122,1300.0,4.5,No,5.27,1818,4.32,azure-blob
+REC-1198,Water,Pipeline Leakage & Flow Optimization,2026-09-16T12:48:00.000Z,2026-09-16,Coimbatore,53.0,117,1000.0,4.8,Yes,2.73,719,2.24,aws-s3
+REC-1199,Energy,Smart Appliance Energy Optimization,2026-09-16T18:24:00.000Z,2026-09-16,Bengaluru,34.0,96,1050.0,4.9,No,29.72,0,24.37,gcp-storage
+REC-1200,Energy,Home Electrical Audit & Wattage Check,2026-09-17T00:00:00.000Z,2026-09-17,Bengaluru,37.0,91,570.0,4.3,Yes,29.16,0,23.91,azure-blob
+REC-1201,Water,Rainwater Filter & Recharge Service,2026-09-17T05:36:00.000Z,2026-09-17,Kochi,59.0,51,1530.0,4.3,No,6.51,997,5.34,aws-s3
+REC-1202,Water,Rainwater Filter & Recharge Service,2026-09-17T11:12:00.000Z,2026-09-17,Coimbatore,49.0,118,1470.0,4.8,No,2.17,1163,1.78,gcp-storage
+REC-1203,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-09-17T16:48:00.000Z,2026-09-17,Bengaluru,50.0,63,1190.0,4.1,No,19.78,0,16.22,azure-blob
+REC-1204,Health,Eco Pest Control & Termite Defense,2026-09-17T22:24:00.000Z,2026-09-17,Kochi,32.0,84,1090.0,4.6,No,0,0,0,aws-s3
+REC-1205,Energy,Home Electrical Audit & Wattage Check,2026-09-18T04:00:00.000Z,2026-09-18,Mumbai,36.0,74,820.0,4.1,Yes,16.13,0,13.23,gcp-storage
+REC-1206,Water,Water Filter & RO Purifier Service,2026-09-18T09:36:00.000Z,2026-09-18,Bengaluru,53.0,84,1100.0,4.6,Yes,4.42,2022,3.62,azure-blob
+REC-1207,Water,Water Tank Cleaning & Disinfection,2026-09-18T15:12:00.000Z,2026-09-18,Coimbatore,38.0,88,1470.0,4.8,No,3.7,2444,3.03,aws-s3
+REC-1208,Food,Certified Nutritionist Cook Service,2026-09-18T20:48:00.000Z,2026-09-18,Coimbatore,18.0,65,470.0,4.8,Yes,0,0,0,gcp-storage
+REC-1209,Food,Certified Nutritionist Cook Service,2026-09-19T02:24:00.000Z,2026-09-19,Bengaluru,52.0,86,690.0,4.4,No,0,0,0,azure-blob
+REC-1210,Health,Eco Pest Control & Termite Defense,2026-09-19T08:00:00.000Z,2026-09-19,Bengaluru,30.0,85,820.0,5.0,Yes,0,0,0,aws-s3
+REC-1211,Health,Bathroom Deep Chemical Scrubbing,2026-09-19T13:36:00.000Z,2026-09-19,Bengaluru,59.0,57,960.0,4.5,No,0,0,0,gcp-storage
+REC-1212,Health,Eco Pest Control & Termite Defense,2026-09-19T19:12:00.000Z,2026-09-19,Coimbatore,36.0,79,1010.0,4.2,No,0,0,0,azure-blob
+REC-1213,Energy,Smart Appliance Energy Optimization,2026-09-20T00:48:00.000Z,2026-09-20,Kochi,44.0,105,920.0,4.0,No,9.7,0,7.95,aws-s3
+REC-1214,Food,Organic Meal Prep & Batch Cooking,2026-09-20T06:24:00.000Z,2026-09-20,Mumbai,35.0,57,860.0,4.7,No,0,0,0,gcp-storage
+REC-1215,Energy,Home Electrical Audit & Wattage Check,2026-09-20T12:00:00.000Z,2026-09-20,Kochi,32.0,44,700.0,4.5,No,32.62,0,26.75,azure-blob
+REC-1216,Health,Indoor Allergen & Mold Remediation,2026-09-20T17:36:00.000Z,2026-09-20,Mumbai,15.0,61,1310.0,4.8,No,0,0,0,aws-s3
+REC-1217,Water,Water Tank Cleaning & Disinfection,2026-09-20T23:12:00.000Z,2026-09-20,Mumbai,48.0,115,1380.0,4.7,Yes,3.38,627,2.77,gcp-storage
+REC-1218,Energy,Solar Inverter & Battery Maintenance,2026-09-21T04:48:00.000Z,2026-09-21,Hyderabad,27.0,55,1730.0,4.1,No,27.3,0,22.39,azure-blob
+REC-1219,Water,Rainwater Filter & Recharge Service,2026-09-21T10:24:00.000Z,2026-09-21,Bengaluru,16.0,87,1420.0,4.4,No,3.99,1430,3.27,aws-s3
+REC-1220,Energy,Solar Inverter & Battery Maintenance,2026-09-21T16:00:00.000Z,2026-09-21,Coimbatore,44.0,85,1660.0,4.8,Yes,16.41,0,13.46,gcp-storage
+REC-1221,Energy,Solar Inverter & Battery Maintenance,2026-09-21T21:36:00.000Z,2026-09-21,Mumbai,26.0,106,1600.0,4.9,Yes,20.48,0,16.79,azure-blob
+REC-1222,Water,Water Tank Cleaning & Disinfection,2026-09-22T03:12:00.000Z,2026-09-22,Hyderabad,46.0,89,1460.0,5.0,Yes,3.12,2253,2.56,aws-s3
+REC-1223,Food,Organic Meal Prep & Batch Cooking,2026-09-22T08:48:00.000Z,2026-09-22,Mumbai,25.0,122,800.0,4.0,No,0,0,0,gcp-storage
+REC-1224,Health,Eco Pest Control & Termite Defense,2026-09-22T14:24:00.000Z,2026-09-22,Chennai,43.0,91,1000.0,4.7,No,0,0,0,azure-blob
+REC-1225,Health,Indoor Allergen & Mold Remediation,2026-09-22T20:00:00.000Z,2026-09-22,Bengaluru,18.0,111,1300.0,4.5,Yes,0,0,0,aws-s3
+REC-1226,Water,Water Filter & RO Purifier Service,2026-09-23T01:36:00.000Z,2026-09-23,Mumbai,39.0,115,1020.0,4.5,No,4.72,1936,3.87,gcp-storage
+REC-1227,Water,Rainwater Filter & Recharge Service,2026-09-23T07:12:00.000Z,2026-09-23,Chennai,34.0,43,1510.0,4.8,No,4.88,1587,4,azure-blob
+REC-1228,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-09-23T12:48:00.000Z,2026-09-23,Chennai,43.0,59,910.0,5.0,No,15.38,0,12.61,aws-s3
+REC-1229,Health,Deep Clinical Sanitization,2026-09-23T18:24:00.000Z,2026-09-23,Kochi,40.0,113,1320.0,4.4,No,0,0,0,gcp-storage
+REC-1230,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-09-24T00:00:00.000Z,2026-09-24,Mumbai,37.0,103,970.0,4.8,No,24.39,0,20,azure-blob
+REC-1231,Water,Water Filter & RO Purifier Service,2026-09-24T05:36:00.000Z,2026-09-24,Kochi,16.0,49,1050.0,5.0,No,5.62,1734,4.61,aws-s3
+REC-1232,Food,Kitchen Hygiene & Food Prep Audit,2026-09-24T11:12:00.000Z,2026-09-24,Coimbatore,35.0,124,720.0,4.3,Yes,0,0,0,gcp-storage
+REC-1233,Water,Pipeline Leakage & Flow Optimization,2026-09-24T16:48:00.000Z,2026-09-24,Bengaluru,21.0,44,1180.0,4.5,Yes,5.32,1429,4.36,azure-blob
+REC-1234,Health,Bathroom Deep Chemical Scrubbing,2026-09-24T22:24:00.000Z,2026-09-24,Mumbai,49.0,67,820.0,4.4,No,0,0,0,aws-s3
+REC-1235,Water,Water Tank Cleaning & Disinfection,2026-09-25T04:00:00.000Z,2026-09-25,Bengaluru,47.0,87,1420.0,4.8,Yes,5.47,1279,4.49,gcp-storage
+REC-1236,Water,Pipeline Leakage & Flow Optimization,2026-09-25T09:36:00.000Z,2026-09-25,Bengaluru,33.0,63,1180.0,4.6,No,3.61,1281,2.96,azure-blob
+REC-1237,Food,Food Pantry Sanitation & Preservation,2026-09-25T15:12:00.000Z,2026-09-25,Bengaluru,28.0,107,700.0,4.2,Yes,0,0,0,aws-s3
+REC-1238,Health,Deep Clinical Sanitization,2026-09-25T20:48:00.000Z,2026-09-25,Coimbatore,19.0,100,1330.0,4.6,No,0,0,0,gcp-storage
+REC-1239,Health,Bathroom Deep Chemical Scrubbing,2026-09-26T02:24:00.000Z,2026-09-26,Bengaluru,55.0,113,760.0,4.3,Yes,0,0,0,azure-blob
+REC-1240,Energy,Solar Inverter & Battery Maintenance,2026-09-26T08:00:00.000Z,2026-09-26,Mumbai,33.0,47,1640.0,5.0,No,13.75,0,11.27,aws-s3
+REC-1241,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-09-26T13:36:00.000Z,2026-09-26,Bengaluru,59.0,71,1000.0,4.9,Yes,10.83,0,8.88,gcp-storage
+REC-1242,Health,Indoor Allergen & Mold Remediation,2026-09-26T19:12:00.000Z,2026-09-26,Hyderabad,55.0,89,1560.0,4.4,No,0,0,0,azure-blob
+REC-1243,Health,Eco Pest Control & Termite Defense,2026-09-27T00:48:00.000Z,2026-09-27,Bengaluru,25.0,114,870.0,4.5,No,0,0,0,aws-s3
+REC-1244,Food,Kitchen Hygiene & Food Prep Audit,2026-09-27T06:24:00.000Z,2026-09-27,Bengaluru,57.0,43,740.0,4.4,No,0,0,0,gcp-storage
+REC-1245,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-09-27T12:00:00.000Z,2026-09-27,Kochi,58.0,100,1110.0,4.1,Yes,14.35,0,11.77,azure-blob
+REC-1246,Food,Food Pantry Sanitation & Preservation,2026-09-27T17:36:00.000Z,2026-09-27,Kochi,29.0,80,800.0,4.1,No,0,0,0,aws-s3
+REC-1247,Water,Rainwater Filter & Recharge Service,2026-09-27T23:12:00.000Z,2026-09-27,Mumbai,43.0,61,1630.0,4.1,No,4.07,1818,3.34,gcp-storage
+REC-1248,Health,Deep Clinical Sanitization,2026-09-28T04:48:00.000Z,2026-09-28,Kochi,17.0,69,1260.0,4.4,No,0,0,0,azure-blob
+REC-1249,Food,Certified Nutritionist Cook Service,2026-09-28T10:24:00.000Z,2026-09-28,Chennai,46.0,70,410.0,4.2,No,0,0,0,aws-s3
+REC-1250,Health,Eco Pest Control & Termite Defense,2026-09-28T16:00:00.000Z,2026-09-28,Hyderabad,55.0,108,880.0,4.9,No,0,0,0,gcp-storage
+REC-1251,Water,Pipeline Leakage & Flow Optimization,2026-09-28T21:36:00.000Z,2026-09-28,Chennai,20.0,88,1110.0,4.5,Yes,4.67,762,3.83,azure-blob
+REC-1252,Water,Rainwater Filter & Recharge Service,2026-09-29T03:12:00.000Z,2026-09-29,Chennai,47.0,50,1490.0,4.7,No,4.68,1377,3.84,aws-s3
+REC-1253,Energy,Home Electrical Audit & Wattage Check,2026-09-29T08:48:00.000Z,2026-09-29,Chennai,45.0,47,550.0,4.9,No,10.13,0,8.31,gcp-storage
+REC-1254,Health,Indoor Allergen & Mold Remediation,2026-09-29T14:24:00.000Z,2026-09-29,Kochi,56.0,77,1470.0,4.7,No,0,0,0,azure-blob
+REC-1255,Food,Certified Nutritionist Cook Service,2026-09-29T20:00:00.000Z,2026-09-29,Hyderabad,30.0,126,660.0,4.9,No,0,0,0,aws-s3
+REC-1256,Food,Kitchen Hygiene & Food Prep Audit,2026-09-30T01:36:00.000Z,2026-09-30,Kochi,23.0,65,840.0,4.6,Yes,0,0,0,gcp-storage
+REC-1257,Water,Water Filter & RO Purifier Service,2026-09-30T07:12:00.000Z,2026-09-30,Mumbai,42.0,103,880.0,4.8,No,2.52,979,2.07,azure-blob
+REC-1258,Water,Water Tank Cleaning & Disinfection,2026-09-30T12:48:00.000Z,2026-09-30,Coimbatore,39.0,66,1410.0,4.3,No,2.6,1805,2.13,aws-s3
+REC-1259,Water,Pipeline Leakage & Flow Optimization,2026-09-30T18:24:00.000Z,2026-09-30,Kochi,25.0,81,1220.0,4.5,No,5.16,955,4.23,gcp-storage
+REC-1260,Energy,Solar Inverter & Battery Maintenance,2026-10-01T00:00:00.000Z,2026-10-01,Chennai,59.0,85,1590.0,4.2,Yes,32.42,0,26.58,azure-blob
+REC-1261,Food,Organic Meal Prep & Batch Cooking,2026-10-01T05:36:00.000Z,2026-10-01,Hyderabad,41.0,58,820.0,4.7,No,0,0,0,aws-s3
+REC-1262,Energy,Solar Inverter & Battery Maintenance,2026-10-01T11:12:00.000Z,2026-10-01,Chennai,30.0,109,1510.0,4.5,No,28.82,0,23.63,gcp-storage
+REC-1263,Health,Bathroom Deep Chemical Scrubbing,2026-10-01T16:48:00.000Z,2026-10-01,Kochi,25.0,116,720.0,4.2,Yes,0,0,0,azure-blob
+REC-1264,Health,Indoor Allergen & Mold Remediation,2026-10-01T22:24:00.000Z,2026-10-01,Bengaluru,44.0,47,1520.0,4.1,No,0,0,0,aws-s3
+REC-1265,Food,Food Pantry Sanitation & Preservation,2026-10-02T04:00:00.000Z,2026-10-02,Hyderabad,17.0,111,730.0,4.9,No,0,0,0,gcp-storage
+REC-1266,Energy,Smart Appliance Energy Optimization,2026-10-02T09:36:00.000Z,2026-10-02,Coimbatore,49.0,42,870.0,4.4,No,28.13,0,23.07,azure-blob
+REC-1267,Water,Water Filter & RO Purifier Service,2026-10-02T15:12:00.000Z,2026-10-02,Coimbatore,50.0,88,1010.0,4.6,Yes,3.99,1286,3.27,aws-s3
+REC-1268,Energy,Home Electrical Audit & Wattage Check,2026-10-02T20:48:00.000Z,2026-10-02,Bengaluru,40.0,95,710.0,4.6,No,27.77,0,22.77,gcp-storage
+REC-1269,Food,Certified Nutritionist Cook Service,2026-10-03T02:24:00.000Z,2026-10-03,Kochi,21.0,106,420.0,4.5,No,0,0,0,azure-blob
+REC-1270,Health,Bathroom Deep Chemical Scrubbing,2026-10-03T08:00:00.000Z,2026-10-03,Bengaluru,16.0,83,710.0,4.3,Yes,0,0,0,aws-s3
+REC-1271,Health,Deep Clinical Sanitization,2026-10-03T13:36:00.000Z,2026-10-03,Kochi,50.0,83,1290.0,4.3,No,0,0,0,gcp-storage
+REC-1272,Water,Rainwater Filter & Recharge Service,2026-10-03T19:12:00.000Z,2026-10-03,Coimbatore,40.0,113,1400.0,4.6,Yes,4.31,1774,3.53,azure-blob
+REC-1273,Energy,Smart Appliance Energy Optimization,2026-10-04T00:48:00.000Z,2026-10-04,Chennai,49.0,42,850.0,4.7,No,17.76,0,14.56,aws-s3
+REC-1274,Energy,Home Electrical Audit & Wattage Check,2026-10-04T06:24:00.000Z,2026-10-04,Chennai,30.0,95,740.0,5.0,Yes,11.59,0,9.5,gcp-storage
+REC-1275,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-10-04T12:00:00.000Z,2026-10-04,Hyderabad,47.0,45,910.0,4.2,Yes,14.2,0,11.64,azure-blob
+REC-1276,Water,Water Tank Cleaning & Disinfection,2026-10-04T17:36:00.000Z,2026-10-04,Hyderabad,55.0,113,1300.0,4.6,Yes,6.07,2193,4.98,aws-s3
+REC-1277,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-10-04T23:12:00.000Z,2026-10-04,Mumbai,51.0,99,1060.0,4.4,Yes,28.97,0,23.76,gcp-storage
+REC-1278,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-10-05T04:48:00.000Z,2026-10-05,Coimbatore,45.0,106,1020.0,4.1,No,26.8,0,21.98,azure-blob
+REC-1279,Health,Eco Pest Control & Termite Defense,2026-10-05T10:24:00.000Z,2026-10-05,Mumbai,43.0,118,960.0,4.3,Yes,0,0,0,aws-s3
+REC-1280,Food,Certified Nutritionist Cook Service,2026-10-05T16:00:00.000Z,2026-10-05,Kochi,22.0,85,510.0,4.3,Yes,0,0,0,gcp-storage
+REC-1281,Water,Pipeline Leakage & Flow Optimization,2026-10-05T21:36:00.000Z,2026-10-05,Bengaluru,34.0,96,1220.0,4.6,Yes,4.2,2053,3.44,azure-blob
+REC-1282,Food,Food Pantry Sanitation & Preservation,2026-10-06T03:12:00.000Z,2026-10-06,Chennai,34.0,87,800.0,4.5,Yes,0,0,0,aws-s3
+REC-1283,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-10-06T08:48:00.000Z,2026-10-06,Kochi,34.0,61,970.0,4.3,No,18.87,0,15.47,gcp-storage
+REC-1284,Energy,Smart Appliance Energy Optimization,2026-10-06T14:24:00.000Z,2026-10-06,Bengaluru,17.0,43,860.0,4.6,No,21.33,0,17.49,azure-blob
+REC-1285,Food,Kitchen Hygiene & Food Prep Audit,2026-10-06T20:00:00.000Z,2026-10-06,Hyderabad,21.0,84,940.0,4.9,Yes,0,0,0,aws-s3
+REC-1286,Food,Certified Nutritionist Cook Service,2026-10-07T01:36:00.000Z,2026-10-07,Bengaluru,54.0,81,630.0,4.5,No,0,0,0,gcp-storage
+REC-1287,Energy,Home Electrical Audit & Wattage Check,2026-10-07T07:12:00.000Z,2026-10-07,Coimbatore,31.0,84,660.0,4.2,Yes,18.3,0,15.01,azure-blob
+REC-1288,Health,Bathroom Deep Chemical Scrubbing,2026-10-07T12:48:00.000Z,2026-10-07,Bengaluru,21.0,92,700.0,4.8,No,0,0,0,aws-s3
+REC-1289,Water,Water Filter & RO Purifier Service,2026-10-07T18:24:00.000Z,2026-10-07,Mumbai,27.0,70,1060.0,4.9,No,6.92,686,5.67,gcp-storage
+REC-1290,Water,Rainwater Filter & Recharge Service,2026-10-08T00:00:00.000Z,2026-10-08,Mumbai,44.0,51,1440.0,4.5,Yes,3.07,2309,2.52,azure-blob
+REC-1291,Food,Kitchen Hygiene & Food Prep Audit,2026-10-08T05:36:00.000Z,2026-10-08,Chennai,40.0,56,840.0,4.6,Yes,0,0,0,aws-s3
+REC-1292,Food,Kitchen Hygiene & Food Prep Audit,2026-10-08T11:12:00.000Z,2026-10-08,Chennai,48.0,65,860.0,4.3,No,0,0,0,gcp-storage
+REC-1293,Health,Bathroom Deep Chemical Scrubbing,2026-10-08T16:48:00.000Z,2026-10-08,Kochi,32.0,54,840.0,4.1,No,0,0,0,azure-blob
+REC-1294,Water,Pipeline Leakage & Flow Optimization,2026-10-08T22:24:00.000Z,2026-10-08,Coimbatore,16.0,104,1100.0,4.3,Yes,6.83,2048,5.6,aws-s3
+REC-1295,Energy,Solar Inverter & Battery Maintenance,2026-10-09T04:00:00.000Z,2026-10-09,Mumbai,54.0,75,1620.0,4.2,No,11.6,0,9.51,gcp-storage
+REC-1296,Health,Eco Pest Control & Termite Defense,2026-10-09T09:36:00.000Z,2026-10-09,Bengaluru,29.0,72,840.0,4.9,No,0,0,0,azure-blob
+REC-1297,Energy,Solar Inverter & Battery Maintenance,2026-10-09T15:12:00.000Z,2026-10-09,Mumbai,50.0,102,1770.0,4.6,No,15.51,0,12.72,aws-s3
+REC-1298,Food,Organic Meal Prep & Batch Cooking,2026-10-09T20:48:00.000Z,2026-10-09,Bengaluru,36.0,77,1000.0,4.6,No,0,0,0,gcp-storage
+REC-1299,Water,Rainwater Filter & Recharge Service,2026-10-10T02:24:00.000Z,2026-10-10,Chennai,55.0,42,1600.0,4.8,No,2.31,1857,1.89,azure-blob
+REC-1300,Health,Eco Pest Control & Termite Defense,2026-10-10T08:00:00.000Z,2026-10-10,Coimbatore,36.0,103,940.0,4.8,Yes,0,0,0,aws-s3
+REC-1301,Food,Food Pantry Sanitation & Preservation,2026-10-10T13:36:00.000Z,2026-10-10,Chennai,38.0,116,810.0,4.9,No,0,0,0,gcp-storage
+REC-1302,Health,Deep Clinical Sanitization,2026-10-10T19:12:00.000Z,2026-10-10,Mumbai,46.0,109,1380.0,4.7,No,0,0,0,azure-blob
+REC-1303,Food,Kitchen Hygiene & Food Prep Audit,2026-10-11T00:48:00.000Z,2026-10-11,Bengaluru,17.0,89,820.0,4.6,No,0,0,0,aws-s3
+REC-1304,Water,Rainwater Filter & Recharge Service,2026-10-11T06:24:00.000Z,2026-10-11,Chennai,46.0,74,1470.0,4.2,No,3.43,2050,2.81,gcp-storage
+REC-1305,Food,Food Pantry Sanitation & Preservation,2026-10-11T12:00:00.000Z,2026-10-11,Chennai,37.0,56,710.0,4.9,Yes,0,0,0,azure-blob
+REC-1306,Water,Pipeline Leakage & Flow Optimization,2026-10-11T17:36:00.000Z,2026-10-11,Mumbai,45.0,101,970.0,4.9,No,6.33,753,5.19,aws-s3
+REC-1307,Health,Indoor Allergen & Mold Remediation,2026-10-11T23:12:00.000Z,2026-10-11,Mumbai,51.0,51,1410.0,4.3,No,0,0,0,gcp-storage
+REC-1308,Food,Certified Nutritionist Cook Service,2026-10-12T04:48:00.000Z,2026-10-12,Mumbai,24.0,116,470.0,4.0,Yes,0,0,0,azure-blob
+REC-1309,Energy,Smart Appliance Energy Optimization,2026-10-12T10:24:00.000Z,2026-10-12,Kochi,23.0,41,840.0,4.3,No,22.08,0,18.11,aws-s3
+REC-1310,Water,Water Tank Cleaning & Disinfection,2026-10-12T16:00:00.000Z,2026-10-12,Hyderabad,57.0,76,1210.0,4.7,No,2.34,567,1.92,gcp-storage
+REC-1311,Energy,Smart Appliance Energy Optimization,2026-10-12T21:36:00.000Z,2026-10-12,Chennai,23.0,76,910.0,4.1,No,28.49,0,23.36,azure-blob
+REC-1312,Water,Water Tank Cleaning & Disinfection,2026-10-13T03:12:00.000Z,2026-10-13,Mumbai,26.0,67,1330.0,4.5,No,4.37,1431,3.58,aws-s3
+REC-1313,Food,Certified Nutritionist Cook Service,2026-10-13T08:48:00.000Z,2026-10-13,Coimbatore,34.0,115,670.0,4.4,No,0,0,0,gcp-storage
+REC-1314,Water,Water Tank Cleaning & Disinfection,2026-10-13T14:24:00.000Z,2026-10-13,Mumbai,47.0,42,1240.0,4.0,Yes,6.6,1064,5.41,azure-blob
+REC-1315,Energy,Smart Appliance Energy Optimization,2026-10-13T20:00:00.000Z,2026-10-13,Hyderabad,22.0,87,830.0,4.1,Yes,27,0,22.14,aws-s3
+REC-1316,Water,Water Filter & RO Purifier Service,2026-10-14T01:36:00.000Z,2026-10-14,Chennai,49.0,128,870.0,4.4,No,5.57,2078,4.57,gcp-storage
+REC-1317,Water,Water Filter & RO Purifier Service,2026-10-14T07:12:00.000Z,2026-10-14,Mumbai,24.0,110,970.0,4.2,Yes,4.63,1758,3.8,azure-blob
+REC-1318,Water,Water Tank Cleaning & Disinfection,2026-10-14T12:48:00.000Z,2026-10-14,Chennai,20.0,111,1320.0,4.4,No,4.37,1508,3.58,aws-s3
+REC-1319,Health,Deep Clinical Sanitization,2026-10-14T18:24:00.000Z,2026-10-14,Kochi,24.0,54,1300.0,4.8,No,0,0,0,gcp-storage
+REC-1320,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-10-15T00:00:00.000Z,2026-10-15,Chennai,22.0,76,1070.0,5.0,No,24.41,0,20.02,azure-blob
+REC-1321,Food,Organic Meal Prep & Batch Cooking,2026-10-15T05:36:00.000Z,2026-10-15,Hyderabad,44.0,50,900.0,4.3,Yes,0,0,0,aws-s3
+REC-1322,Health,Eco Pest Control & Termite Defense,2026-10-15T11:12:00.000Z,2026-10-15,Hyderabad,41.0,74,1020.0,4.5,No,0,0,0,gcp-storage
+REC-1323,Health,Deep Clinical Sanitization,2026-10-15T16:48:00.000Z,2026-10-15,Bengaluru,36.0,103,1200.0,4.2,No,0,0,0,azure-blob
+REC-1324,Food,Organic Meal Prep & Batch Cooking,2026-10-15T22:24:00.000Z,2026-10-15,Bengaluru,39.0,73,1000.0,4.2,No,0,0,0,aws-s3
+REC-1325,Water,Pipeline Leakage & Flow Optimization,2026-10-16T04:00:00.000Z,2026-10-16,Kochi,17.0,94,970.0,4.9,Yes,3.21,2357,2.63,gcp-storage
+REC-1326,Energy,Home Electrical Audit & Wattage Check,2026-10-16T09:36:00.000Z,2026-10-16,Chennai,26.0,63,840.0,4.0,No,10.99,0,9.01,azure-blob
+REC-1327,Water,Pipeline Leakage & Flow Optimization,2026-10-16T15:12:00.000Z,2026-10-16,Kochi,31.0,107,1070.0,4.0,Yes,6.88,1201,5.64,aws-s3
+REC-1328,Health,Bathroom Deep Chemical Scrubbing,2026-10-16T20:48:00.000Z,2026-10-16,Kochi,23.0,75,830.0,4.0,Yes,0,0,0,gcp-storage
+REC-1329,Food,Organic Meal Prep & Batch Cooking,2026-10-17T02:24:00.000Z,2026-10-17,Hyderabad,57.0,63,910.0,5.0,Yes,0,0,0,azure-blob
+REC-1330,Energy,Home Electrical Audit & Wattage Check,2026-10-17T08:00:00.000Z,2026-10-17,Mumbai,56.0,58,660.0,4.8,No,29.67,0,24.33,aws-s3
+REC-1331,Health,Deep Clinical Sanitization,2026-10-17T13:36:00.000Z,2026-10-17,Chennai,16.0,104,1390.0,4.1,Yes,0,0,0,gcp-storage
+REC-1332,Energy,Smart Appliance Energy Optimization,2026-10-17T19:12:00.000Z,2026-10-17,Coimbatore,44.0,71,1020.0,4.4,Yes,24.61,0,20.18,azure-blob
+REC-1333,Food,Certified Nutritionist Cook Service,2026-10-18T00:48:00.000Z,2026-10-18,Hyderabad,58.0,61,680.0,4.9,No,0,0,0,aws-s3
+REC-1334,Water,Water Filter & RO Purifier Service,2026-10-18T06:24:00.000Z,2026-10-18,Coimbatore,49.0,96,1120.0,4.4,No,4.88,526,4,gcp-storage
+REC-1335,Health,Eco Pest Control & Termite Defense,2026-10-18T12:00:00.000Z,2026-10-18,Chennai,19.0,109,1070.0,4.6,No,0,0,0,azure-blob
+REC-1336,Energy,Solar Inverter & Battery Maintenance,2026-10-18T17:36:00.000Z,2026-10-18,Kochi,18.0,49,1690.0,4.1,Yes,10.95,0,8.98,aws-s3
+REC-1337,Energy,Home Electrical Audit & Wattage Check,2026-10-18T23:12:00.000Z,2026-10-18,Hyderabad,55.0,95,780.0,4.5,No,23.73,0,19.46,gcp-storage
+REC-1338,Energy,Smart Appliance Energy Optimization,2026-10-19T04:48:00.000Z,2026-10-19,Hyderabad,37.0,96,1010.0,4.7,Yes,23.53,0,19.29,azure-blob
+REC-1339,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-10-19T10:24:00.000Z,2026-10-19,Coimbatore,21.0,54,1190.0,4.1,No,8.82,0,7.23,aws-s3
+REC-1340,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-10-19T16:00:00.000Z,2026-10-19,Coimbatore,53.0,118,970.0,4.8,No,10.98,0,9,gcp-storage
+REC-1341,Water,Water Tank Cleaning & Disinfection,2026-10-19T21:36:00.000Z,2026-10-19,Chennai,29.0,69,1270.0,4.4,No,4.06,1909,3.33,azure-blob
+REC-1342,Food,Certified Nutritionist Cook Service,2026-10-20T03:12:00.000Z,2026-10-20,Kochi,17.0,128,630.0,4.6,No,0,0,0,aws-s3
+REC-1343,Water,Pipeline Leakage & Flow Optimization,2026-10-20T08:48:00.000Z,2026-10-20,Mumbai,53.0,79,950.0,4.7,No,4.14,1308,3.39,gcp-storage
+REC-1344,Energy,AC Deep Coil Cleaning & Gas Tuning,2026-10-20T14:24:00.000Z,2026-10-20,Bengaluru,48.0,74,1020.0,4.9,Yes,13.12,0,10.76,azure-blob
+REC-1345,Health,Eco Pest Control & Termite Defense,2026-10-20T20:00:00.000Z,2026-10-20,Mumbai,44.0,124,910.0,4.6,Yes,0,0,0,aws-s3
+REC-1346,Food,Food Pantry Sanitation & Preservation,2026-10-21T01:36:00.000Z,2026-10-21,Chennai,17.0,52,640.0,4.5,No,0,0,0,gcp-storage
+REC-1347,Energy,Solar Inverter & Battery Maintenance,2026-10-21T07:12:00.000Z,2026-10-21,Bengaluru,45.0,58,1750.0,4.9,Yes,27.51,0,22.56,azure-blob
+REC-1348,Water,Pipeline Leakage & Flow Optimization,2026-10-21T12:48:00.000Z,2026-10-21,Chennai,27.0,102,970.0,5.0,No,6.6,1047,5.41,aws-s3
+REC-1349,Health,Eco Pest Control & Termite Defense,2026-10-21T18:24:00.000Z,2026-10-21,Kochi,51.0,129,920.0,4.6,Yes,0,0,0,gcp-storage
+REC-1350,Energy,Home Electrical Audit & Wattage Check,2026-10-22T00:00:00.000Z,2026-10-22,Bengaluru,34.0,94,580.0,4.7,No,32.24,0,26.44,azure-blob
+REC-1351,Energy,Smart Appliance Energy Optimization,2026-10-22T05:36:00.000Z,2026-10-22,Mumbai,16.0,119,880.0,4.7,Yes,23.57,0,19.33,aws-s3
+REC-1352,Food,Food Pantry Sanitation & Preservation,2026-10-22T11:12:00.000Z,2026-10-22,Hyderabad,42.0,98,740.0,4.1,No,0,0,0,gcp-storage
+REC-1353,Water,Water Tank Cleaning & Disinfection,2026-10-22T16:48:00.000Z,2026-10-22,Hyderabad,43.0,60,1260.0,4.0,No,5.54,1441,4.54,azure-blob
+REC-1354,Energy,Solar Inverter & Battery Maintenance,2026-10-22T22:24:00.000Z,2026-10-22,Chennai,37.0,42,1750.0,4.9,Yes,20.27,0,16.62,aws-s3
+REC-1355,Health,Deep Clinical Sanitization,2026-10-23T04:00:00.000Z,2026-10-23,Hyderabad,56.0,84,1300.0,5.0,No,0,0,0,gcp-storage
+REC-1356,Energy,Smart Appliance Energy Optimization,2026-10-23T09:36:00.000Z,2026-10-23,Kochi,34.0,114,990.0,4.5,Yes,10.6,0,8.69,azure-blob
+REC-1357,Energy,Smart Appliance Energy Optimization,2026-10-23T15:12:00.000Z,2026-10-23,Hyderabad,39.0,86,920.0,4.7,Yes,27.78,0,22.78,aws-s3
+REC-1358,Energy,Home Electrical Audit & Wattage Check,2026-10-23T20:48:00.000Z,2026-10-23,Chennai,23.0,113,800.0,4.3,Yes,32.9,0,26.98,gcp-storage
+REC-1359,Energy,Home Electrical Audit & Wattage Check,2026-10-24T02:24:00.000Z,2026-10-24,Kochi,35.0,92,660.0,4.0,No,30.08,0,24.67,azure-blob
+REC-1360,Energy,Home Electrical Audit & Wattage Check,2026-10-24T08:00:00.000Z,2026-10-24,Chennai,36.0,101,840.0,4.9,No,13.35,0,10.95,aws-s3

@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  NearBee Serverless Telemetry & Analytics Pipeline
+  Course: Cloud Computing for Data Analytics (23DC2043)
+
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 256
+    Runtime: python3.11
+
+Resources:
+  NearBeeTelemetryBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: nearbee-cloud-analytics-lake-23dc2043
+
+  NearBeeTelemetryProcessorFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: aws-lambda/
+      Handler: lambda_function.lambda_handler
+      Description: Ingests real-time events and computes domain analytics KPIs
+      Policies:
+        - S3ReadPolicy:
+            BucketName: nearbee-cloud-analytics-lake-23dc2043
+      Events:
+        S3NewObject:
+          Type: S3
+          Properties:
+            Bucket: !Ref NearBeeTelemetryBucket
+            Events: s3:ObjectCreated:*
+        HttpApiEvent:
+          Type: Api
+          Properties:
+            Path: /telemetry/process
+            Method: post
+
+Outputs:
+  NearBeeApiUrl:
+    Description: "API Gateway HTTP endpoint URL"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/telemetry/process"
+  NearBeeBucketArn:
+    Description: "NearBee Ingestion S3 Bucket ARN"
+    Value: !GetAtt NearBeeTelemetryBucket.Arn
+

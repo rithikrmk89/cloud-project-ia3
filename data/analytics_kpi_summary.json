@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-29T10:07:21.192509Z",
+    "total_records_processed": 360,
+    "pipeline_status": "SUCCESS",
+    "target_cloud_warehouse": "AWS Redshift / GCP BigQuery / Azure Synapse"
+  },
+  "overview": {
+    "total_services_dispatched": 360,
+    "average_response_time_min": 36.7,
+    "average_customer_rating": 4.51,
+    "high_urgency_dispatch_ratio": 38.3,
+    "total_revenue_inr": 372540.0
+  },
+  "domains": {
+    "Water": {
+      "total_jobs": 95,
+      "revenue_inr": 116080.0,
+      "total_water_liters_purified": 140402.0,
+      "avg_tds_reduction_ppm": 285.4,
+      "environmental_impact": "140,402 Liters of municipal & domestic water sanitized"
+    },
+    "Energy": {
+      "total_jobs": 91,
+      "revenue_inr": 93970.0,
+      "total_kwh_conserved": 1874.94,
+      "total_co2_avoided_kg": 1537.42,
+      "environmental_impact": "1874.9 kWh saved, avoiding 1537.4 kg CO2 emissions"
+    },
+    "Health": {
+      "total_jobs": 89,
+      "revenue_inr": 98280.0,
+      "avg_sanitation_score_boost_pct": 45.9,
+      "impact": "Clinical sterilization and eco-pest barrier across domestic dwellings"
+    },
+    "Food": {
+      "total_jobs": 85,
+      "revenue_inr": 64210.0,
+      "avg_hygiene_score_boost_pct": 54.0,
+      "impact": "FSSAI-aligned home meal preparation and culinary hygiene compliance"
+    }
+  },
+  "city_breakdown": {
+    "Chennai": {
+      "count": 57,
+      "total_rev": 58740.0,
+      "avg_resp": 37.4
+    },
+    "Kochi": {
+      "count": 64,
+      "total_rev": 67650.0,
+      "avg_resp": 34.3
+    },
+    "Hyderabad": {
+      "count": 54,
+      "total_rev": 54030.0,
+      "avg_resp": 36.0
+    },
+    "Mumbai": {
+      "count": 60,
+      "total_rev": 63560.0,
+      "avg_resp": 38.0
+    },
+    "Coimbatore": {
+      "count": 62,
+      "total_rev": 63480.0,
+      "avg_resp": 37.9
+    },
+    "Bengaluru": {
+      "count": 63,
+      "total_rev": 65080.0,
+      "avg_resp": 37.0
+    }
+  }
+}

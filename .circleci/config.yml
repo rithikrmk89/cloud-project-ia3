@@ -1,0 +1,49 @@
+version: 2.1
+
+executors:
+  node-executor:
+    docker:
+      - image: cimg/node:20.11
+    working_directory: ~/repo
+
+jobs:
+  test-and-build:
+    executor: node-executor
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-deps-{{ checksum "package.json" }}
+            - v1-deps-
+      - run:
+          name: Install Dependencies
+          command: npm install --legacy-peer-deps
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-deps-{{ checksum "package.json" }}
+      - run:
+          name: Run Build with Node Preset
+          command: |
+            export NITRO_PRESET=node-server
+            npm run build
+
+  docker-image-build:
+    machine:
+      image: ubuntu-2204:current
+    steps:
+      - checkout
+      - run:
+          name: Build Docker Container
+          command: |
+            docker build -t nearbee-app:circleci .
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - test-and-build
+      - docker-image-build:
+          requires:
+            - test-and-build
+

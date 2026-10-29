@@ -1,0 +1,23 @@
+import { createFileRoute, Outlet, Link } from "@tanstack/react-router";
+import { useRole } from "@/lib/use-role";
+
+export const Route = createFileRoute("/_authenticated/provider")({
+  component: () => <Outlet />,
+});
+
+export function ProviderGuard({ children }: { children: React.ReactNode }) {
+  const { role, loading } = useRole();
+  if (loading) return <div className="p-10 text-center text-white/60">Loading…</div>;
+  if (role !== "provider" && role !== "admin") {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-black p-8 text-center text-white">
+        <div className="max-w-md space-y-4">
+          <h1 className="text-2xl font-bold">Provider access only</h1>
+          <p className="text-white/60">This area is for verified Near Bee service providers.</p>
+          <Link to="/dashboard" className="inline-block rounded-full bg-bee px-5 py-2.5 text-sm font-semibold text-ink">Go to user dashboard</Link>
+        </div>
+      </div>
+    );
+  }
+  return <>{children}</>;
+}

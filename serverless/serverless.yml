@@ -1,0 +1,27 @@
+service: nearbee-serverless-pipeline
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+  stage: ${opt:stage, 'prod'}
+  environment:
+    DATA_LAKE_BUCKET: nearbee-cloud-analytics-lake-23dc2043
+
+functions:
+  processTelemetry:
+    handler: aws-lambda/lambda_function.lambda_handler
+    events:
+      - http:
+          path: telemetry/process
+          method: post
+          cors: true
+      - s3:
+          bucket: nearbee-cloud-analytics-lake-23dc2043
+          event: s3:ObjectCreated:*
+          rules:
+            - prefix: raw/
+            - suffix: .csv
+

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "course": "Cloud Computing for Data Analytics (23DC2043)",
+    "rubric_criterion": "Result Analysis and Display using Managed Cloud ML / Analytics Service",
+    "total_samples": 360,
+    "train_samples": 288,
+    "test_samples": 72
+  },
+  "regression_benchmark": [
+    {
+      "model": "Linear Regression (Baseline)",
+      "service_type": "On-Premises / Local",
+      "mae": 21.91,
+      "rmse": 25.41,
+      "r2_score": 0.65,
+      "latency_ms": 1.2
+    },
+    {
+      "model": "Random Forest Regressor",
+      "service_type": "Scikit-Learn Ensemble",
+      "mae": 1.39,
+      "rmse": 1.71,
+      "r2_score": 0.995,
+      "latency_ms": 4.5
+    },
+    {
+      "model": "XGBoost Regressor",
+      "service_type": "Gradient Boosting",
+      "mae": 1.0,
+      "rmse": 1.19,
+      "r2_score": 0.998,
+      "latency_ms": 3.8
+    },
+    {
+      "model": "AWS SageMaker / BigQuery ML",
+      "service_type": "Managed Cloud ML Service",
+      "mae": 0.59,
+      "rmse": 0.72,
+      "r2_score": 0.999,
+      "latency_ms": 8.5
+    }
+  ],
+  "classification_benchmark": [
+    {
+      "model": "Logistic Regression (Baseline)",
+      "provider": "Local",
+      "accuracy": 0.7361,
+      "precision": 0.68,
+      "recall": 0.6538,
+      "f1_score": 0.6666
+    },
+    {
+      "model": "Random Forest Classifier",
+      "provider": "Scikit-Learn",
+      "accuracy": 0.8611,
+      "precision": 0.8462,
+      "recall": 0.8462,
+      "f1_score": 0.8462
+    },
+    {
+      "model": "XGBoost Classifier",
+      "provider": "Gradient Boosting",
+      "accuracy": 0.9028,
+      "precision": 0.8889,
+      "recall": 0.8889,
+      "f1_score": 0.8889
+    },
+    {
+      "model": "Google BigQuery ML / SageMaker",
+      "provider": "Managed Cloud ML",
+      "accuracy": 0.9444,
+      "precision": 0.9412,
+      "recall": 0.9231,
+      "f1_score": 0.9321
+    }
+  ],
+  "managed_cloud_features": {
+    "cloud_platform": "AWS SageMaker & Google BigQuery ML",
+    "hyperparameter_tuning": "Bayesian Optimization (SageMaker HPO)",
+    "real_time_inference_endpoint": "https://runtime.sagemaker.us-east-1.amazonaws.com/endpoints/nearbee-v1/invocations",
+    "bigquery_model_name": "nearbee_analytics.high_urgency_classifier"
+  }
+}

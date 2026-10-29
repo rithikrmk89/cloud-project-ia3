@@ -1,0 +1,361 @@
+record_id,domain,service_name,timestamp,city,response_time_min,service_duration_min,service_fee_inr,customer_rating,high_urgency_flag,energy_saved_kwh,water_purified_liters,water_tds_reduced_ppm,sanitation_score_delta,co2_avoided_kg,cloud_ingestion_source,cloud_storage_uri
+REC-1001,Water,"Water Tank Cleaning & Disinfection",2026-08-01T13:36:00.000Z,Chennai,38,96,1460,4.9,1,2.15,2129,327,0,1.76,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_1.json
+REC-1002,Health,"Bathroom Deep Chemical Scrubbing",2026-08-01T19:12:00.000Z,Kochi,42,102,860,4.9,0,0,0,0,66.5,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_2.json
+REC-1003,Energy,"Home Electrical Audit & Wattage Check",2026-08-02T00:48:00.000Z,Hyderabad,33,100,810,4.6,0,9.98,0,0,0,8.18,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_3.json
+REC-1004,Water,"Pipeline Leakage & Flow Optimization",2026-08-02T06:24:00.000Z,Mumbai,30,112,1050,4.8,0,6.3,1833,308,0,5.17,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_4.json
+REC-1005,Energy,"Smart Appliance Energy Optimization",2026-08-02T12:00:00.000Z,Hyderabad,18,60,990,4.8,0,18.32,0,0,0,15.02,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_5.json
+REC-1006,Food,"Kitchen Hygiene & Food Prep Audit",2026-08-02T17:36:00.000Z,Chennai,31,84,930,4.8,0,0,0,0,33.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_6.json
+REC-1007,Food,"Organic Meal Prep & Batch Cooking",2026-08-02T23:12:00.000Z,Coimbatore,29,118,1000,4.4,1,0,0,0,38.4,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_7.json
+REC-1008,Food,"Certified Nutritionist Cook Service",2026-08-03T04:48:00.000Z,Mumbai,34,80,500,4.7,1,0,0,0,64.5,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_8.json
+REC-1009,Water,"Pipeline Leakage & Flow Optimization",2026-08-03T10:24:00.000Z,Chennai,16,123,990,4.3,1,3.95,1806,140,0,3.24,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_9.json
+REC-1010,Health,"Indoor Allergen & Mold Remediation",2026-08-03T16:00:00.000Z,Bengaluru,41,85,1400,4.6,0,0,0,0,34,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_10.json
+REC-1011,Water,"Water Tank Cleaning & Disinfection",2026-08-03T21:36:00.000Z,Kochi,34,97,1250,4.4,0,6.9,1361,177,0,5.66,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_11.json
+REC-1012,Food,"Food Pantry Sanitation & Preservation",2026-08-04T03:12:00.000Z,Bengaluru,54,122,630,5,1,0,0,0,30.2,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_12.json
+REC-1013,Water,"Water Tank Cleaning & Disinfection",2026-08-04T08:48:00.000Z,Hyderabad,15,96,1400,5,0,5.89,1552,310,0,4.83,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_13.json
+REC-1014,Health,"Bathroom Deep Chemical Scrubbing",2026-08-04T14:24:00.000Z,Bengaluru,22,70,980,4.1,0,0,0,0,32.1,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_14.json
+REC-1015,Food,"Organic Meal Prep & Batch Cooking",2026-08-04T20:00:00.000Z,Mumbai,41,122,910,4.5,1,0,0,0,67.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_15.json
+REC-1016,Health,"Bathroom Deep Chemical Scrubbing",2026-08-05T01:36:00.000Z,Mumbai,42,111,910,4.6,0,0,0,0,41,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_16.json
+REC-1017,Energy,"Smart Appliance Energy Optimization",2026-08-05T07:12:00.000Z,Chennai,46,45,1010,4.6,1,16.4,0,0,0,13.45,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_17.json
+REC-1018,Water,"Pipeline Leakage & Flow Optimization",2026-08-05T12:48:00.000Z,Chennai,49,106,1230,4.7,0,2.5,668,373,0,2.05,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_18.json
+REC-1019,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-08-05T18:24:00.000Z,Coimbatore,26,46,1020,5,0,31.28,0,0,0,25.65,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_19.json
+REC-1020,Energy,"Solar Inverter & Battery Maintenance",2026-08-06T00:00:00.000Z,Coimbatore,30,88,1670,4.9,0,26.76,0,0,0,21.94,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_20.json
+REC-1021,Water,"Pipeline Leakage & Flow Optimization",2026-08-06T05:36:00.000Z,Mumbai,48,53,980,4.3,1,2.19,1570,321,0,1.8,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_21.json
+REC-1022,Food,"Kitchen Hygiene & Food Prep Audit",2026-08-06T11:12:00.000Z,Kochi,39,97,820,4.9,0,0,0,0,50.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_22.json
+REC-1023,Health,"Indoor Allergen & Mold Remediation",2026-08-06T16:48:00.000Z,Mumbai,18,125,1350,5,0,0,0,0,26.1,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_23.json
+REC-1024,Health,"Indoor Allergen & Mold Remediation",2026-08-06T22:24:00.000Z,Bengaluru,38,71,1530,4.5,0,0,0,0,68.6,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_24.json
+REC-1025,Water,"Rainwater Filter & Recharge Service",2026-08-07T04:00:00.000Z,Mumbai,41,109,1610,4.2,0,5.78,584,351,0,4.74,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_25.json
+REC-1026,Water,"Water Filter & RO Purifier Service",2026-08-07T09:36:00.000Z,Coimbatore,35,103,1110,4.1,1,3.68,796,411,0,3.02,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_26.json
+REC-1027,Health,"Eco Pest Control & Termite Defense",2026-08-07T15:12:00.000Z,Chennai,57,51,810,4.4,0,0,0,0,42.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_27.json
+REC-1028,Health,"Bathroom Deep Chemical Scrubbing",2026-08-07T20:48:00.000Z,Kochi,38,107,780,4.7,0,0,0,0,31.5,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_28.json
+REC-1029,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-08-08T02:24:00.000Z,Hyderabad,31,51,1030,4.2,0,16.96,0,0,0,13.91,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_29.json
+REC-1030,Food,"Kitchen Hygiene & Food Prep Audit",2026-08-08T08:00:00.000Z,Coimbatore,40,100,900,4.7,0,0,0,0,47.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_30.json
+REC-1031,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-08-08T13:36:00.000Z,Bengaluru,31,81,1060,4.4,0,29.3,0,0,0,24.03,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_31.json
+REC-1032,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-08-08T19:12:00.000Z,Coimbatore,56,93,990,4.4,0,22.99,0,0,0,18.85,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_32.json
+REC-1033,Health,"Bathroom Deep Chemical Scrubbing",2026-08-09T00:48:00.000Z,Mumbai,40,53,840,4,1,0,0,0,46.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_33.json
+REC-1034,Water,"Pipeline Leakage & Flow Optimization",2026-08-09T06:24:00.000Z,Kochi,31,110,1230,4.2,1,3.11,1356,216,0,2.55,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_34.json
+REC-1035,Water,"Water Filter & RO Purifier Service",2026-08-09T12:00:00.000Z,Bengaluru,29,118,1000,4.3,0,4.22,1251,129,0,3.46,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_35.json
+REC-1036,Health,"Indoor Allergen & Mold Remediation",2026-08-09T17:36:00.000Z,Chennai,37,46,1330,4.6,1,0,0,0,49.6,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_36.json
+REC-1037,Food,"Organic Meal Prep & Batch Cooking",2026-08-09T23:12:00.000Z,Mumbai,48,87,830,4.1,0,0,0,0,55.7,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_37.json
+REC-1038,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-08-10T04:48:00.000Z,Kochi,45,76,1090,4.1,1,28.01,0,0,0,22.97,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_38.json
+REC-1039,Water,"Rainwater Filter & Recharge Service",2026-08-10T10:24:00.000Z,Mumbai,38,104,1600,4.5,0,5.4,500,299,0,4.43,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_39.json
+REC-1040,Food,"Certified Nutritionist Cook Service",2026-08-10T16:00:00.000Z,Chennai,16,69,500,4.5,0,0,0,0,37.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_40.json
+REC-1041,Energy,"Home Electrical Audit & Wattage Check",2026-08-10T21:36:00.000Z,Hyderabad,21,57,620,4.7,1,25.5,0,0,0,20.91,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_41.json
+REC-1042,Food,"Food Pantry Sanitation & Preservation",2026-08-11T03:12:00.000Z,Mumbai,55,49,830,4.6,0,0,0,0,49.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_42.json
+REC-1043,Food,"Certified Nutritionist Cook Service",2026-08-11T08:48:00.000Z,Mumbai,58,43,470,4.3,0,0,0,0,62,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_43.json
+REC-1044,Health,"Bathroom Deep Chemical Scrubbing",2026-08-11T14:24:00.000Z,Coimbatore,56,77,930,4.2,0,0,0,0,28.4,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_44.json
+REC-1045,Food,"Organic Meal Prep & Batch Cooking",2026-08-11T20:00:00.000Z,Chennai,54,94,890,4.7,0,0,0,0,44.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_45.json
+REC-1046,Energy,"Smart Appliance Energy Optimization",2026-08-12T01:36:00.000Z,Hyderabad,45,82,890,4.4,1,16.1,0,0,0,13.2,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_46.json
+REC-1047,Food,"Food Pantry Sanitation & Preservation",2026-08-12T07:12:00.000Z,Mumbai,26,40,830,4.3,1,0,0,0,48,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_47.json
+REC-1048,Food,"Kitchen Hygiene & Food Prep Audit",2026-08-12T12:48:00.000Z,Coimbatore,52,85,930,4.2,1,0,0,0,50.4,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_48.json
+REC-1049,Water,"Water Tank Cleaning & Disinfection",2026-08-12T18:24:00.000Z,Coimbatore,28,43,1320,4.8,0,7,1279,388,0,5.74,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_49.json
+REC-1050,Health,"Bathroom Deep Chemical Scrubbing",2026-08-13T00:00:00.000Z,Kochi,20,76,850,4.4,0,0,0,0,47.9,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_50.json
+REC-1051,Energy,"Home Electrical Audit & Wattage Check",2026-08-13T05:36:00.000Z,Coimbatore,24,119,660,4.9,0,28.49,0,0,0,23.36,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_51.json
+REC-1052,Energy,"Smart Appliance Energy Optimization",2026-08-13T11:12:00.000Z,Chennai,53,71,1020,4.5,1,10.53,0,0,0,8.63,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_52.json
+REC-1053,Food,"Food Pantry Sanitation & Preservation",2026-08-13T16:48:00.000Z,Coimbatore,26,52,870,4.8,0,0,0,0,52.2,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_53.json
+REC-1054,Energy,"Smart Appliance Energy Optimization",2026-08-13T22:24:00.000Z,Hyderabad,24,101,930,4.4,0,25.31,0,0,0,20.75,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_54.json
+REC-1055,Water,"Water Filter & RO Purifier Service",2026-08-14T04:00:00.000Z,Chennai,39,68,880,4.2,0,5.5,1756,353,0,4.51,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_55.json
+REC-1056,Water,"Rainwater Filter & Recharge Service",2026-08-14T09:36:00.000Z,Coimbatore,37,48,1490,4.2,0,4.01,1861,386,0,3.29,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_56.json
+REC-1057,Energy,"Smart Appliance Energy Optimization",2026-08-14T15:12:00.000Z,Bengaluru,17,42,800,4.1,0,21.48,0,0,0,17.61,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_57.json
+REC-1058,Energy,"Solar Inverter & Battery Maintenance",2026-08-14T20:48:00.000Z,Kochi,33,105,1600,4.2,1,9.5,0,0,0,7.79,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_58.json
+REC-1059,Health,"Bathroom Deep Chemical Scrubbing",2026-08-15T02:24:00.000Z,Bengaluru,50,107,700,4.8,1,0,0,0,35.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_59.json
+REC-1060,Water,"Pipeline Leakage & Flow Optimization",2026-08-15T08:00:00.000Z,Coimbatore,42,52,1200,4.9,0,3.12,2226,165,0,2.56,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_60.json
+REC-1061,Health,"Indoor Allergen & Mold Remediation",2026-08-15T13:36:00.000Z,Chennai,30,102,1330,4.4,0,0,0,0,26.5,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_61.json
+REC-1062,Food,"Kitchen Hygiene & Food Prep Audit",2026-08-15T19:12:00.000Z,Mumbai,27,62,830,4.7,1,0,0,0,63.6,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_62.json
+REC-1063,Water,"Water Tank Cleaning & Disinfection",2026-08-16T00:48:00.000Z,Mumbai,15,107,1290,4.5,0,6.32,1507,141,0,5.18,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_63.json
+REC-1064,Water,"Pipeline Leakage & Flow Optimization",2026-08-16T06:24:00.000Z,Chennai,26,51,1020,4.2,1,5.67,1307,302,0,4.65,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_64.json
+REC-1065,Energy,"Home Electrical Audit & Wattage Check",2026-08-16T12:00:00.000Z,Kochi,37,67,550,4.3,1,19.64,0,0,0,16.1,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_65.json
+REC-1066,Energy,"Smart Appliance Energy Optimization",2026-08-16T17:36:00.000Z,Coimbatore,43,80,850,4,0,26.2,0,0,0,21.48,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_66.json
+REC-1067,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-08-16T23:12:00.000Z,Coimbatore,19,94,910,4.4,1,23.48,0,0,0,19.25,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_67.json
+REC-1068,Water,"Water Filter & RO Purifier Service",2026-08-17T04:48:00.000Z,Coimbatore,19,64,880,4.8,0,6.21,2475,154,0,5.09,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_68.json
+REC-1069,Water,"Water Filter & RO Purifier Service",2026-08-17T10:24:00.000Z,Coimbatore,28,123,950,4.5,1,3.02,1132,289,0,2.48,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_69.json
+REC-1070,Food,"Certified Nutritionist Cook Service",2026-08-17T16:00:00.000Z,Coimbatore,35,42,440,5,1,0,0,0,52.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_70.json
+REC-1071,Energy,"Solar Inverter & Battery Maintenance",2026-08-17T21:36:00.000Z,Kochi,17,86,1510,4.9,0,12.99,0,0,0,10.65,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_71.json
+REC-1072,Water,"Pipeline Leakage & Flow Optimization",2026-08-18T03:12:00.000Z,Hyderabad,44,78,1110,4.9,1,3.81,1351,217,0,3.12,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_72.json
+REC-1073,Water,"Water Tank Cleaning & Disinfection",2026-08-18T08:48:00.000Z,Kochi,27,66,1310,4.1,1,4.12,1347,338,0,3.38,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_73.json
+REC-1074,Health,"Eco Pest Control & Termite Defense",2026-08-18T14:24:00.000Z,Coimbatore,41,62,960,4.8,1,0,0,0,66.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_74.json
+REC-1075,Food,"Organic Meal Prep & Batch Cooking",2026-08-18T20:00:00.000Z,Chennai,44,48,1030,4.8,0,0,0,0,43.8,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_75.json
+REC-1076,Energy,"Home Electrical Audit & Wattage Check",2026-08-19T01:36:00.000Z,Hyderabad,25,129,680,4.9,0,24.82,0,0,0,20.35,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_76.json
+REC-1077,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-08-19T07:12:00.000Z,Hyderabad,47,108,1060,4.9,1,8.88,0,0,0,7.28,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_77.json
+REC-1078,Health,"Indoor Allergen & Mold Remediation",2026-08-19T12:48:00.000Z,Coimbatore,38,109,1350,4.9,1,0,0,0,46.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_78.json
+REC-1079,Water,"Rainwater Filter & Recharge Service",2026-08-19T18:24:00.000Z,Hyderabad,18,92,1620,4.6,0,5.78,1601,315,0,4.74,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_79.json
+REC-1080,Water,"Rainwater Filter & Recharge Service",2026-08-20T00:00:00.000Z,Hyderabad,39,127,1550,4.6,0,2.77,568,164,0,2.27,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_80.json
+REC-1081,Water,"Water Filter & RO Purifier Service",2026-08-20T05:36:00.000Z,Hyderabad,55,59,1130,4.8,1,6.7,1728,198,0,5.49,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_81.json
+REC-1082,Health,"Bathroom Deep Chemical Scrubbing",2026-08-20T11:12:00.000Z,Mumbai,28,72,790,4.2,1,0,0,0,41.8,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_82.json
+REC-1083,Health,"Bathroom Deep Chemical Scrubbing",2026-08-20T16:48:00.000Z,Kochi,17,79,940,4.9,1,0,0,0,35.9,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_83.json
+REC-1084,Food,"Organic Meal Prep & Batch Cooking",2026-08-20T22:24:00.000Z,Hyderabad,26,49,910,4.4,0,0,0,0,60.3,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_84.json
+REC-1085,Water,"Rainwater Filter & Recharge Service",2026-08-21T04:00:00.000Z,Coimbatore,29,80,1410,4.5,0,3.3,1837,265,0,2.71,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_85.json
+REC-1086,Food,"Food Pantry Sanitation & Preservation",2026-08-21T09:36:00.000Z,Hyderabad,52,80,610,4.1,0,0,0,0,44.5,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_86.json
+REC-1087,Health,"Eco Pest Control & Termite Defense",2026-08-21T15:12:00.000Z,Coimbatore,52,117,850,4.6,1,0,0,0,40.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_87.json
+REC-1088,Health,"Deep Clinical Sanitization",2026-08-21T20:48:00.000Z,Chennai,50,98,1370,4,0,0,0,0,42.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_88.json
+REC-1089,Health,"Indoor Allergen & Mold Remediation",2026-08-22T02:24:00.000Z,Kochi,29,48,1370,4.3,0,0,0,0,37.6,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_89.json
+REC-1090,Food,"Food Pantry Sanitation & Preservation",2026-08-22T08:00:00.000Z,Hyderabad,22,117,670,4.6,0,0,0,0,34.6,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_90.json
+REC-1091,Health,"Indoor Allergen & Mold Remediation",2026-08-22T13:36:00.000Z,Mumbai,20,123,1450,4.4,1,0,0,0,38.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_91.json
+REC-1092,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-08-22T19:12:00.000Z,Kochi,40,66,950,4.9,0,15.71,0,0,0,12.88,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_92.json
+REC-1093,Health,"Bathroom Deep Chemical Scrubbing",2026-08-23T00:48:00.000Z,Hyderabad,39,107,980,4.2,1,0,0,0,30.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_93.json
+REC-1094,Water,"Rainwater Filter & Recharge Service",2026-08-23T06:24:00.000Z,Hyderabad,27,55,1620,5,0,5.34,1108,289,0,4.38,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_94.json
+REC-1095,Health,"Deep Clinical Sanitization",2026-08-23T12:00:00.000Z,Bengaluru,44,68,1290,4.9,1,0,0,0,61.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_95.json
+REC-1096,Health,"Eco Pest Control & Termite Defense",2026-08-23T17:36:00.000Z,Mumbai,28,45,1070,4.8,0,0,0,0,52.8,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_96.json
+REC-1097,Food,"Kitchen Hygiene & Food Prep Audit",2026-08-23T23:12:00.000Z,Coimbatore,42,103,890,4.1,0,0,0,0,51.8,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_97.json
+REC-1098,Energy,"Home Electrical Audit & Wattage Check",2026-08-24T04:48:00.000Z,Bengaluru,42,113,700,4.1,1,14.83,0,0,0,12.16,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_98.json
+REC-1099,Food,"Organic Meal Prep & Batch Cooking",2026-08-24T10:24:00.000Z,Kochi,20,129,920,4.2,1,0,0,0,75.6,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_99.json
+REC-1100,Food,"Organic Meal Prep & Batch Cooking",2026-08-24T16:00:00.000Z,Hyderabad,40,88,750,4.7,1,0,0,0,56.6,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_100.json
+REC-1101,Water,"Water Filter & RO Purifier Service",2026-08-24T21:36:00.000Z,Bengaluru,51,74,1020,4.2,0,3.76,1034,163,0,3.08,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_101.json
+REC-1102,Health,"Bathroom Deep Chemical Scrubbing",2026-08-25T03:12:00.000Z,Mumbai,49,115,920,4.3,0,0,0,0,57.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_102.json
+REC-1103,Food,"Certified Nutritionist Cook Service",2026-08-25T08:48:00.000Z,Coimbatore,35,76,690,4.7,1,0,0,0,55.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_103.json
+REC-1104,Health,"Indoor Allergen & Mold Remediation",2026-08-25T14:24:00.000Z,Coimbatore,38,59,1590,4,1,0,0,0,41.6,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_104.json
+REC-1105,Health,"Indoor Allergen & Mold Remediation",2026-08-25T20:00:00.000Z,Bengaluru,44,65,1570,4.8,0,0,0,0,59.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_105.json
+REC-1106,Health,"Indoor Allergen & Mold Remediation",2026-08-26T01:36:00.000Z,Mumbai,22,50,1500,4.3,0,0,0,0,60.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_106.json
+REC-1107,Health,"Deep Clinical Sanitization",2026-08-26T07:12:00.000Z,Bengaluru,33,110,1130,4.3,0,0,0,0,50.7,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_107.json
+REC-1108,Food,"Organic Meal Prep & Batch Cooking",2026-08-26T12:48:00.000Z,Mumbai,57,60,800,4.1,0,0,0,0,78.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_108.json
+REC-1109,Water,"Water Filter & RO Purifier Service",2026-08-26T18:24:00.000Z,Coimbatore,51,64,880,4.3,0,4.16,2274,327,0,3.41,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_109.json
+REC-1110,Energy,"Home Electrical Audit & Wattage Check",2026-08-27T00:00:00.000Z,Chennai,23,70,810,4.9,0,32.46,0,0,0,26.62,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_110.json
+REC-1111,Food,"Food Pantry Sanitation & Preservation",2026-08-27T05:36:00.000Z,Bengaluru,38,74,830,4.7,1,0,0,0,43.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_111.json
+REC-1112,Water,"Water Filter & RO Purifier Service",2026-08-27T11:12:00.000Z,Bengaluru,34,58,900,4.7,0,2.77,2180,293,0,2.27,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_112.json
+REC-1113,Water,"Water Filter & RO Purifier Service",2026-08-27T16:48:00.000Z,Kochi,38,54,920,5,0,2.87,1537,434,0,2.35,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_113.json
+REC-1114,Health,"Indoor Allergen & Mold Remediation",2026-08-27T22:24:00.000Z,Kochi,30,52,1560,4,1,0,0,0,58,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_114.json
+REC-1115,Water,"Water Tank Cleaning & Disinfection",2026-08-28T04:00:00.000Z,Hyderabad,20,56,1330,4.4,1,5.42,1981,189,0,4.44,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_115.json
+REC-1116,Energy,"Home Electrical Audit & Wattage Check",2026-08-28T09:36:00.000Z,Coimbatore,23,104,780,4.6,1,28.61,0,0,0,23.46,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_116.json
+REC-1117,Water,"Water Filter & RO Purifier Service",2026-08-28T15:12:00.000Z,Chennai,57,88,980,4.9,0,4.63,2177,277,0,3.8,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_117.json
+REC-1118,Health,"Bathroom Deep Chemical Scrubbing",2026-08-28T20:48:00.000Z,Chennai,59,83,730,4.8,1,0,0,0,36.5,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_118.json
+REC-1119,Energy,"Smart Appliance Energy Optimization",2026-08-29T02:24:00.000Z,Hyderabad,22,90,860,4.4,0,13.91,0,0,0,11.41,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_119.json
+REC-1120,Health,"Deep Clinical Sanitization",2026-08-29T08:00:00.000Z,Kochi,47,67,1300,4.3,1,0,0,0,50.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_120.json
+REC-1121,Food,"Kitchen Hygiene & Food Prep Audit",2026-08-29T13:36:00.000Z,Kochi,25,120,780,4.7,1,0,0,0,73.5,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_121.json
+REC-1122,Water,"Rainwater Filter & Recharge Service",2026-08-29T19:12:00.000Z,Bengaluru,49,113,1550,4.8,0,2.28,1546,261,0,1.87,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_122.json
+REC-1123,Food,"Food Pantry Sanitation & Preservation",2026-08-30T00:48:00.000Z,Mumbai,57,92,740,5,0,0,0,0,73.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_123.json
+REC-1124,Food,"Food Pantry Sanitation & Preservation",2026-08-30T06:24:00.000Z,Hyderabad,24,90,790,4.7,0,0,0,0,40.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_124.json
+REC-1125,Health,"Deep Clinical Sanitization",2026-08-30T12:00:00.000Z,Mumbai,48,84,1210,5,0,0,0,0,57.2,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_125.json
+REC-1126,Energy,"Solar Inverter & Battery Maintenance",2026-08-30T17:36:00.000Z,Bengaluru,47,119,1500,4.5,1,20.32,0,0,0,16.66,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_126.json
+REC-1127,Water,"Water Tank Cleaning & Disinfection",2026-08-30T23:12:00.000Z,Bengaluru,42,105,1370,4.1,0,5,1736,375,0,4.1,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_127.json
+REC-1128,Food,"Organic Meal Prep & Batch Cooking",2026-08-31T04:48:00.000Z,Coimbatore,50,107,850,4.7,0,0,0,0,56.2,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/08/rec_128.json
+REC-1129,Water,"Water Tank Cleaning & Disinfection",2026-08-31T10:24:00.000Z,Bengaluru,32,120,1370,4.2,0,4.54,1440,210,0,3.72,aws-s3,s3://nearbee-iot-lake-production/events/2026/08/rec_129.json
+REC-1130,Water,"Rainwater Filter & Recharge Service",2026-08-31T16:00:00.000Z,Kochi,45,57,1430,4.9,1,2.36,1050,325,0,1.94,gcp-storage,gs://nearbee-analytics-lake/events/2026/08/rec_130.json
+REC-1131,Health,"Deep Clinical Sanitization",2026-08-31T21:36:00.000Z,Mumbai,42,52,1260,4,0,0,0,0,58.6,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_131.json
+REC-1132,Health,"Bathroom Deep Chemical Scrubbing",2026-09-01T03:12:00.000Z,Chennai,59,123,910,4.6,0,0,0,0,58.8,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_132.json
+REC-1133,Food,"Food Pantry Sanitation & Preservation",2026-09-01T08:48:00.000Z,Hyderabad,17,64,670,4,0,0,0,0,54.8,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_133.json
+REC-1134,Health,"Eco Pest Control & Termite Defense",2026-09-01T14:24:00.000Z,Kochi,55,41,1040,4.3,0,0,0,0,55.5,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_134.json
+REC-1135,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-09-01T20:00:00.000Z,Bengaluru,34,75,920,4.1,0,30.61,0,0,0,25.1,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_135.json
+REC-1136,Food,"Food Pantry Sanitation & Preservation",2026-09-02T01:36:00.000Z,Coimbatore,17,58,810,4.3,1,0,0,0,78.7,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_136.json
+REC-1137,Health,"Indoor Allergen & Mold Remediation",2026-09-02T07:12:00.000Z,Kochi,49,72,1570,4.1,0,0,0,0,29.6,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_137.json
+REC-1138,Health,"Deep Clinical Sanitization",2026-09-02T12:48:00.000Z,Kochi,41,86,1390,4.3,0,0,0,0,39.8,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_138.json
+REC-1139,Health,"Bathroom Deep Chemical Scrubbing",2026-09-02T18:24:00.000Z,Bengaluru,47,73,840,4.3,1,0,0,0,65.1,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_139.json
+REC-1140,Water,"Water Tank Cleaning & Disinfection",2026-09-03T00:00:00.000Z,Kochi,53,109,1290,4.1,0,3.29,2429,330,0,2.7,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_140.json
+REC-1141,Food,"Food Pantry Sanitation & Preservation",2026-09-03T05:36:00.000Z,Coimbatore,59,120,600,4.7,0,0,0,0,40.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_141.json
+REC-1142,Health,"Bathroom Deep Chemical Scrubbing",2026-09-03T11:12:00.000Z,Hyderabad,21,59,910,4.1,0,0,0,0,43.8,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_142.json
+REC-1143,Health,"Bathroom Deep Chemical Scrubbing",2026-09-03T16:48:00.000Z,Coimbatore,25,111,790,4.1,1,0,0,0,64.4,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_143.json
+REC-1144,Water,"Pipeline Leakage & Flow Optimization",2026-09-03T22:24:00.000Z,Kochi,43,55,990,4.2,0,5.69,1124,193,0,4.67,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_144.json
+REC-1145,Food,"Kitchen Hygiene & Food Prep Audit",2026-09-04T04:00:00.000Z,Coimbatore,47,98,810,4.8,0,0,0,0,33.6,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_145.json
+REC-1146,Water,"Pipeline Leakage & Flow Optimization",2026-09-04T09:36:00.000Z,Bengaluru,54,72,990,4.3,1,6.07,1878,321,0,4.98,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_146.json
+REC-1147,Food,"Certified Nutritionist Cook Service",2026-09-04T15:12:00.000Z,Bengaluru,44,40,630,4.3,1,0,0,0,66.3,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_147.json
+REC-1148,Energy,"Home Electrical Audit & Wattage Check",2026-09-04T20:48:00.000Z,Chennai,39,125,560,4.8,1,8.28,0,0,0,6.79,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_148.json
+REC-1149,Water,"Pipeline Leakage & Flow Optimization",2026-09-05T02:24:00.000Z,Kochi,23,78,1200,4.3,0,6.9,1746,231,0,5.66,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_149.json
+REC-1150,Health,"Eco Pest Control & Termite Defense",2026-09-05T08:00:00.000Z,Coimbatore,48,105,960,4.9,1,0,0,0,37.4,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_150.json
+REC-1151,Health,"Bathroom Deep Chemical Scrubbing",2026-09-05T13:36:00.000Z,Chennai,39,109,780,4.9,0,0,0,0,31.2,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_151.json
+REC-1152,Food,"Kitchen Hygiene & Food Prep Audit",2026-09-05T19:12:00.000Z,Kochi,23,128,790,4.3,0,0,0,0,62.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_152.json
+REC-1153,Water,"Rainwater Filter & Recharge Service",2026-09-06T00:48:00.000Z,Hyderabad,24,83,1490,4.7,1,2.53,1062,262,0,2.07,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_153.json
+REC-1154,Water,"Pipeline Leakage & Flow Optimization",2026-09-06T06:24:00.000Z,Chennai,58,104,1180,4.4,0,3.72,1584,158,0,3.05,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_154.json
+REC-1155,Food,"Food Pantry Sanitation & Preservation",2026-09-06T12:00:00.000Z,Coimbatore,26,79,600,4.9,1,0,0,0,75.4,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_155.json
+REC-1156,Health,"Bathroom Deep Chemical Scrubbing",2026-09-06T17:36:00.000Z,Hyderabad,18,72,790,4.1,0,0,0,0,38.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_156.json
+REC-1157,Water,"Water Filter & RO Purifier Service",2026-09-06T23:12:00.000Z,Mumbai,16,52,990,4.8,0,2.9,842,205,0,2.38,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_157.json
+REC-1158,Energy,"Solar Inverter & Battery Maintenance",2026-09-07T04:48:00.000Z,Coimbatore,42,108,1600,4.5,1,8.58,0,0,0,7.04,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_158.json
+REC-1159,Water,"Water Filter & RO Purifier Service",2026-09-07T10:24:00.000Z,Kochi,53,113,900,4.1,1,3.49,792,321,0,2.86,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_159.json
+REC-1160,Health,"Bathroom Deep Chemical Scrubbing",2026-09-07T16:00:00.000Z,Kochi,58,86,830,5,1,0,0,0,48.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_160.json
+REC-1161,Water,"Water Tank Cleaning & Disinfection",2026-09-07T21:36:00.000Z,Coimbatore,20,66,1400,4.4,0,4.28,696,332,0,3.51,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_161.json
+REC-1162,Food,"Organic Meal Prep & Batch Cooking",2026-09-08T03:12:00.000Z,Hyderabad,41,108,930,4.3,0,0,0,0,36,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_162.json
+REC-1163,Food,"Organic Meal Prep & Batch Cooking",2026-09-08T08:48:00.000Z,Hyderabad,52,53,830,4.5,0,0,0,0,35.2,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_163.json
+REC-1164,Water,"Water Filter & RO Purifier Service",2026-09-08T14:24:00.000Z,Mumbai,31,113,850,5,0,4.58,2251,438,0,3.76,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_164.json
+REC-1165,Food,"Organic Meal Prep & Batch Cooking",2026-09-08T20:00:00.000Z,Coimbatore,45,71,1020,4.9,1,0,0,0,69.8,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_165.json
+REC-1166,Water,"Rainwater Filter & Recharge Service",2026-09-09T01:36:00.000Z,Bengaluru,45,114,1610,4.3,0,4.77,1096,160,0,3.91,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_166.json
+REC-1167,Food,"Certified Nutritionist Cook Service",2026-09-09T07:12:00.000Z,Hyderabad,50,77,610,4.8,1,0,0,0,67.7,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_167.json
+REC-1168,Food,"Kitchen Hygiene & Food Prep Audit",2026-09-09T12:48:00.000Z,Mumbai,59,63,730,4.2,0,0,0,0,71.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_168.json
+REC-1169,Health,"Deep Clinical Sanitization",2026-09-09T18:24:00.000Z,Chennai,26,93,1170,4.2,1,0,0,0,58.7,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_169.json
+REC-1170,Food,"Kitchen Hygiene & Food Prep Audit",2026-09-10T00:00:00.000Z,Chennai,56,46,860,4.3,0,0,0,0,54.6,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_170.json
+REC-1171,Energy,"Smart Appliance Energy Optimization",2026-09-10T05:36:00.000Z,Coimbatore,45,100,980,4.3,0,20.89,0,0,0,17.13,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_171.json
+REC-1172,Energy,"Smart Appliance Energy Optimization",2026-09-10T11:12:00.000Z,Hyderabad,49,118,920,4.7,0,16.73,0,0,0,13.72,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_172.json
+REC-1173,Energy,"Solar Inverter & Battery Maintenance",2026-09-10T16:48:00.000Z,Kochi,40,125,1590,4.9,1,22.81,0,0,0,18.7,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_173.json
+REC-1174,Water,"Water Tank Cleaning & Disinfection",2026-09-10T22:24:00.000Z,Kochi,48,104,1220,4.3,0,5.49,1315,366,0,4.5,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_174.json
+REC-1175,Food,"Organic Meal Prep & Batch Cooking",2026-09-11T04:00:00.000Z,Bengaluru,18,69,860,4.1,0,0,0,0,59,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_175.json
+REC-1176,Energy,"Home Electrical Audit & Wattage Check",2026-09-11T09:36:00.000Z,Kochi,47,115,680,4.9,0,24.88,0,0,0,20.4,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_176.json
+REC-1177,Food,"Organic Meal Prep & Batch Cooking",2026-09-11T15:12:00.000Z,Coimbatore,59,48,890,4.3,0,0,0,0,42.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_177.json
+REC-1178,Food,"Organic Meal Prep & Batch Cooking",2026-09-11T20:48:00.000Z,Kochi,36,119,760,4.1,0,0,0,0,53.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_178.json
+REC-1179,Energy,"Solar Inverter & Battery Maintenance",2026-09-12T02:24:00.000Z,Mumbai,20,112,1580,4.3,1,15.24,0,0,0,12.5,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_179.json
+REC-1180,Food,"Food Pantry Sanitation & Preservation",2026-09-12T08:00:00.000Z,Bengaluru,23,65,650,4,0,0,0,0,33.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_180.json
+REC-1181,Food,"Certified Nutritionist Cook Service",2026-09-12T13:36:00.000Z,Mumbai,42,125,520,4.7,1,0,0,0,63.2,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_181.json
+REC-1182,Health,"Eco Pest Control & Termite Defense",2026-09-12T19:12:00.000Z,Bengaluru,43,102,830,5,0,0,0,0,53.2,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_182.json
+REC-1183,Energy,"Home Electrical Audit & Wattage Check",2026-09-13T00:48:00.000Z,Hyderabad,17,62,650,5,1,19.59,0,0,0,16.06,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_183.json
+REC-1184,Health,"Indoor Allergen & Mold Remediation",2026-09-13T06:24:00.000Z,Kochi,45,108,1560,4.2,1,0,0,0,60.6,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_184.json
+REC-1185,Energy,"Smart Appliance Energy Optimization",2026-09-13T12:00:00.000Z,Kochi,26,67,1020,4.2,1,9.98,0,0,0,8.18,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_185.json
+REC-1186,Health,"Indoor Allergen & Mold Remediation",2026-09-13T17:36:00.000Z,Hyderabad,22,79,1340,4.8,1,0,0,0,52.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_186.json
+REC-1187,Food,"Organic Meal Prep & Batch Cooking",2026-09-13T23:12:00.000Z,Coimbatore,51,82,750,4.6,1,0,0,0,47.6,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_187.json
+REC-1188,Water,"Pipeline Leakage & Flow Optimization",2026-09-14T04:48:00.000Z,Bengaluru,39,88,1230,4.4,0,6.47,1721,237,0,5.31,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_188.json
+REC-1189,Water,"Water Filter & RO Purifier Service",2026-09-14T10:24:00.000Z,Chennai,27,85,950,4.3,0,3.47,803,195,0,2.85,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_189.json
+REC-1190,Health,"Bathroom Deep Chemical Scrubbing",2026-09-14T16:00:00.000Z,Bengaluru,19,93,820,4.4,1,0,0,0,53.6,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_190.json
+REC-1191,Energy,"Solar Inverter & Battery Maintenance",2026-09-14T21:36:00.000Z,Chennai,15,128,1510,4.6,0,17.17,0,0,0,14.08,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_191.json
+REC-1192,Health,"Indoor Allergen & Mold Remediation",2026-09-15T03:12:00.000Z,Bengaluru,18,47,1560,4.3,0,0,0,0,40.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_192.json
+REC-1193,Food,"Organic Meal Prep & Batch Cooking",2026-09-15T08:48:00.000Z,Kochi,15,110,840,4.3,0,0,0,0,36.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_193.json
+REC-1194,Food,"Certified Nutritionist Cook Service",2026-09-15T14:24:00.000Z,Mumbai,21,89,460,4.8,0,0,0,0,49.5,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_194.json
+REC-1195,Health,"Deep Clinical Sanitization",2026-09-15T20:00:00.000Z,Coimbatore,41,68,1390,4.9,0,0,0,0,66.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_195.json
+REC-1196,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-09-16T01:36:00.000Z,Mumbai,48,129,1050,4.9,0,32.54,0,0,0,26.68,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_196.json
+REC-1197,Water,"Water Tank Cleaning & Disinfection",2026-09-16T07:12:00.000Z,Bengaluru,22,122,1300,4.5,0,5.27,1818,247,0,4.32,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_197.json
+REC-1198,Water,"Pipeline Leakage & Flow Optimization",2026-09-16T12:48:00.000Z,Coimbatore,53,117,1000,4.8,1,2.73,719,288,0,2.24,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_198.json
+REC-1199,Energy,"Smart Appliance Energy Optimization",2026-09-16T18:24:00.000Z,Bengaluru,34,96,1050,4.9,0,29.72,0,0,0,24.37,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_199.json
+REC-1200,Energy,"Home Electrical Audit & Wattage Check",2026-09-17T00:00:00.000Z,Bengaluru,37,91,570,4.3,1,29.16,0,0,0,23.91,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_200.json
+REC-1201,Water,"Rainwater Filter & Recharge Service",2026-09-17T05:36:00.000Z,Kochi,59,51,1530,4.3,0,6.51,997,242,0,5.34,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_201.json
+REC-1202,Water,"Rainwater Filter & Recharge Service",2026-09-17T11:12:00.000Z,Coimbatore,49,118,1470,4.8,0,2.17,1163,392,0,1.78,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_202.json
+REC-1203,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-09-17T16:48:00.000Z,Bengaluru,50,63,1190,4.1,0,19.78,0,0,0,16.22,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_203.json
+REC-1204,Health,"Eco Pest Control & Termite Defense",2026-09-17T22:24:00.000Z,Kochi,32,84,1090,4.6,0,0,0,0,41.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_204.json
+REC-1205,Energy,"Home Electrical Audit & Wattage Check",2026-09-18T04:00:00.000Z,Mumbai,36,74,820,4.1,1,16.13,0,0,0,13.23,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_205.json
+REC-1206,Water,"Water Filter & RO Purifier Service",2026-09-18T09:36:00.000Z,Bengaluru,53,84,1100,4.6,1,4.42,2022,130,0,3.62,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_206.json
+REC-1207,Water,"Water Tank Cleaning & Disinfection",2026-09-18T15:12:00.000Z,Coimbatore,38,88,1470,4.8,0,3.7,2444,223,0,3.03,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_207.json
+REC-1208,Food,"Certified Nutritionist Cook Service",2026-09-18T20:48:00.000Z,Coimbatore,18,65,470,4.8,1,0,0,0,44.8,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_208.json
+REC-1209,Food,"Certified Nutritionist Cook Service",2026-09-19T02:24:00.000Z,Bengaluru,52,86,690,4.4,0,0,0,0,63.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_209.json
+REC-1210,Health,"Eco Pest Control & Termite Defense",2026-09-19T08:00:00.000Z,Bengaluru,30,85,820,5,1,0,0,0,40.3,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_210.json
+REC-1211,Health,"Bathroom Deep Chemical Scrubbing",2026-09-19T13:36:00.000Z,Bengaluru,59,57,960,4.5,0,0,0,0,27.7,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_211.json
+REC-1212,Health,"Eco Pest Control & Termite Defense",2026-09-19T19:12:00.000Z,Coimbatore,36,79,1010,4.2,0,0,0,0,32.5,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_212.json
+REC-1213,Energy,"Smart Appliance Energy Optimization",2026-09-20T00:48:00.000Z,Kochi,44,105,920,4,0,9.7,0,0,0,7.95,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_213.json
+REC-1214,Food,"Organic Meal Prep & Batch Cooking",2026-09-20T06:24:00.000Z,Mumbai,35,57,860,4.7,0,0,0,0,36.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_214.json
+REC-1215,Energy,"Home Electrical Audit & Wattage Check",2026-09-20T12:00:00.000Z,Kochi,32,44,700,4.5,0,32.62,0,0,0,26.75,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_215.json
+REC-1216,Health,"Indoor Allergen & Mold Remediation",2026-09-20T17:36:00.000Z,Mumbai,15,61,1310,4.8,0,0,0,0,42.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_216.json
+REC-1217,Water,"Water Tank Cleaning & Disinfection",2026-09-20T23:12:00.000Z,Mumbai,48,115,1380,4.7,1,3.38,627,195,0,2.77,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_217.json
+REC-1218,Energy,"Solar Inverter & Battery Maintenance",2026-09-21T04:48:00.000Z,Hyderabad,27,55,1730,4.1,0,27.3,0,0,0,22.39,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_218.json
+REC-1219,Water,"Rainwater Filter & Recharge Service",2026-09-21T10:24:00.000Z,Bengaluru,16,87,1420,4.4,0,3.99,1430,428,0,3.27,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_219.json
+REC-1220,Energy,"Solar Inverter & Battery Maintenance",2026-09-21T16:00:00.000Z,Coimbatore,44,85,1660,4.8,1,16.41,0,0,0,13.46,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_220.json
+REC-1221,Energy,"Solar Inverter & Battery Maintenance",2026-09-21T21:36:00.000Z,Mumbai,26,106,1600,4.9,1,20.48,0,0,0,16.79,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_221.json
+REC-1222,Water,"Water Tank Cleaning & Disinfection",2026-09-22T03:12:00.000Z,Hyderabad,46,89,1460,5,1,3.12,2253,426,0,2.56,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_222.json
+REC-1223,Food,"Organic Meal Prep & Batch Cooking",2026-09-22T08:48:00.000Z,Mumbai,25,122,800,4,0,0,0,0,63,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_223.json
+REC-1224,Health,"Eco Pest Control & Termite Defense",2026-09-22T14:24:00.000Z,Chennai,43,91,1000,4.7,0,0,0,0,36.4,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_224.json
+REC-1225,Health,"Indoor Allergen & Mold Remediation",2026-09-22T20:00:00.000Z,Bengaluru,18,111,1300,4.5,1,0,0,0,34.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_225.json
+REC-1226,Water,"Water Filter & RO Purifier Service",2026-09-23T01:36:00.000Z,Mumbai,39,115,1020,4.5,0,4.72,1936,404,0,3.87,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_226.json
+REC-1227,Water,"Rainwater Filter & Recharge Service",2026-09-23T07:12:00.000Z,Chennai,34,43,1510,4.8,0,4.88,1587,354,0,4,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_227.json
+REC-1228,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-09-23T12:48:00.000Z,Chennai,43,59,910,5,0,15.38,0,0,0,12.61,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_228.json
+REC-1229,Health,"Deep Clinical Sanitization",2026-09-23T18:24:00.000Z,Kochi,40,113,1320,4.4,0,0,0,0,25.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_229.json
+REC-1230,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-09-24T00:00:00.000Z,Mumbai,37,103,970,4.8,0,24.39,0,0,0,20,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_230.json
+REC-1231,Water,"Water Filter & RO Purifier Service",2026-09-24T05:36:00.000Z,Kochi,16,49,1050,5,0,5.62,1734,425,0,4.61,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_231.json
+REC-1232,Food,"Kitchen Hygiene & Food Prep Audit",2026-09-24T11:12:00.000Z,Coimbatore,35,124,720,4.3,1,0,0,0,76.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_232.json
+REC-1233,Water,"Pipeline Leakage & Flow Optimization",2026-09-24T16:48:00.000Z,Bengaluru,21,44,1180,4.5,1,5.32,1429,179,0,4.36,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_233.json
+REC-1234,Health,"Bathroom Deep Chemical Scrubbing",2026-09-24T22:24:00.000Z,Mumbai,49,67,820,4.4,0,0,0,0,60.6,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_234.json
+REC-1235,Water,"Water Tank Cleaning & Disinfection",2026-09-25T04:00:00.000Z,Bengaluru,47,87,1420,4.8,1,5.47,1279,379,0,4.49,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_235.json
+REC-1236,Water,"Pipeline Leakage & Flow Optimization",2026-09-25T09:36:00.000Z,Bengaluru,33,63,1180,4.6,0,3.61,1281,318,0,2.96,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_236.json
+REC-1237,Food,"Food Pantry Sanitation & Preservation",2026-09-25T15:12:00.000Z,Bengaluru,28,107,700,4.2,1,0,0,0,36,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_237.json
+REC-1238,Health,"Deep Clinical Sanitization",2026-09-25T20:48:00.000Z,Coimbatore,19,100,1330,4.6,0,0,0,0,57.7,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_238.json
+REC-1239,Health,"Bathroom Deep Chemical Scrubbing",2026-09-26T02:24:00.000Z,Bengaluru,55,113,760,4.3,1,0,0,0,54.2,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_239.json
+REC-1240,Energy,"Solar Inverter & Battery Maintenance",2026-09-26T08:00:00.000Z,Mumbai,33,47,1640,5,0,13.75,0,0,0,11.27,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_240.json
+REC-1241,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-09-26T13:36:00.000Z,Bengaluru,59,71,1000,4.9,1,10.83,0,0,0,8.88,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_241.json
+REC-1242,Health,"Indoor Allergen & Mold Remediation",2026-09-26T19:12:00.000Z,Hyderabad,55,89,1560,4.4,0,0,0,0,36.1,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_242.json
+REC-1243,Health,"Eco Pest Control & Termite Defense",2026-09-27T00:48:00.000Z,Bengaluru,25,114,870,4.5,0,0,0,0,53.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_243.json
+REC-1244,Food,"Kitchen Hygiene & Food Prep Audit",2026-09-27T06:24:00.000Z,Bengaluru,57,43,740,4.4,0,0,0,0,77.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_244.json
+REC-1245,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-09-27T12:00:00.000Z,Kochi,58,100,1110,4.1,1,14.35,0,0,0,11.77,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_245.json
+REC-1246,Food,"Food Pantry Sanitation & Preservation",2026-09-27T17:36:00.000Z,Kochi,29,80,800,4.1,0,0,0,0,63.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_246.json
+REC-1247,Water,"Rainwater Filter & Recharge Service",2026-09-27T23:12:00.000Z,Mumbai,43,61,1630,4.1,0,4.07,1818,399,0,3.34,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_247.json
+REC-1248,Health,"Deep Clinical Sanitization",2026-09-28T04:48:00.000Z,Kochi,17,69,1260,4.4,0,0,0,0,34.6,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_248.json
+REC-1249,Food,"Certified Nutritionist Cook Service",2026-09-28T10:24:00.000Z,Chennai,46,70,410,4.2,0,0,0,0,77.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_249.json
+REC-1250,Health,"Eco Pest Control & Termite Defense",2026-09-28T16:00:00.000Z,Hyderabad,55,108,880,4.9,0,0,0,0,41.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_250.json
+REC-1251,Water,"Pipeline Leakage & Flow Optimization",2026-09-28T21:36:00.000Z,Chennai,20,88,1110,4.5,1,4.67,762,403,0,3.83,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_251.json
+REC-1252,Water,"Rainwater Filter & Recharge Service",2026-09-29T03:12:00.000Z,Chennai,47,50,1490,4.7,0,4.68,1377,196,0,3.84,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_252.json
+REC-1253,Energy,"Home Electrical Audit & Wattage Check",2026-09-29T08:48:00.000Z,Chennai,45,47,550,4.9,0,10.13,0,0,0,8.31,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_253.json
+REC-1254,Health,"Indoor Allergen & Mold Remediation",2026-09-29T14:24:00.000Z,Kochi,56,77,1470,4.7,0,0,0,0,52.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_254.json
+REC-1255,Food,"Certified Nutritionist Cook Service",2026-09-29T20:00:00.000Z,Hyderabad,30,126,660,4.9,0,0,0,0,43.8,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_255.json
+REC-1256,Food,"Kitchen Hygiene & Food Prep Audit",2026-09-30T01:36:00.000Z,Kochi,23,65,840,4.6,1,0,0,0,50,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_256.json
+REC-1257,Water,"Water Filter & RO Purifier Service",2026-09-30T07:12:00.000Z,Mumbai,42,103,880,4.8,0,2.52,979,324,0,2.07,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/09/rec_257.json
+REC-1258,Water,"Water Tank Cleaning & Disinfection",2026-09-30T12:48:00.000Z,Coimbatore,39,66,1410,4.3,0,2.6,1805,420,0,2.13,aws-s3,s3://nearbee-iot-lake-production/events/2026/09/rec_258.json
+REC-1259,Water,"Pipeline Leakage & Flow Optimization",2026-09-30T18:24:00.000Z,Kochi,25,81,1220,4.5,0,5.16,955,418,0,4.23,gcp-storage,gs://nearbee-analytics-lake/events/2026/09/rec_259.json
+REC-1260,Energy,"Solar Inverter & Battery Maintenance",2026-10-01T00:00:00.000Z,Chennai,59,85,1590,4.2,1,32.42,0,0,0,26.58,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_260.json
+REC-1261,Food,"Organic Meal Prep & Batch Cooking",2026-10-01T05:36:00.000Z,Hyderabad,41,58,820,4.7,0,0,0,0,46.6,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_261.json
+REC-1262,Energy,"Solar Inverter & Battery Maintenance",2026-10-01T11:12:00.000Z,Chennai,30,109,1510,4.5,0,28.82,0,0,0,23.63,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_262.json
+REC-1263,Health,"Bathroom Deep Chemical Scrubbing",2026-10-01T16:48:00.000Z,Kochi,25,116,720,4.2,1,0,0,0,40.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_263.json
+REC-1264,Health,"Indoor Allergen & Mold Remediation",2026-10-01T22:24:00.000Z,Bengaluru,44,47,1520,4.1,0,0,0,0,38.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_264.json
+REC-1265,Food,"Food Pantry Sanitation & Preservation",2026-10-02T04:00:00.000Z,Hyderabad,17,111,730,4.9,0,0,0,0,63.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_265.json
+REC-1266,Energy,"Smart Appliance Energy Optimization",2026-10-02T09:36:00.000Z,Coimbatore,49,42,870,4.4,0,28.13,0,0,0,23.07,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_266.json
+REC-1267,Water,"Water Filter & RO Purifier Service",2026-10-02T15:12:00.000Z,Coimbatore,50,88,1010,4.6,1,3.99,1286,307,0,3.27,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_267.json
+REC-1268,Energy,"Home Electrical Audit & Wattage Check",2026-10-02T20:48:00.000Z,Bengaluru,40,95,710,4.6,0,27.77,0,0,0,22.77,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_268.json
+REC-1269,Food,"Certified Nutritionist Cook Service",2026-10-03T02:24:00.000Z,Kochi,21,106,420,4.5,0,0,0,0,55.2,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_269.json
+REC-1270,Health,"Bathroom Deep Chemical Scrubbing",2026-10-03T08:00:00.000Z,Bengaluru,16,83,710,4.3,1,0,0,0,61.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_270.json
+REC-1271,Health,"Deep Clinical Sanitization",2026-10-03T13:36:00.000Z,Kochi,50,83,1290,4.3,0,0,0,0,51.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_271.json
+REC-1272,Water,"Rainwater Filter & Recharge Service",2026-10-03T19:12:00.000Z,Coimbatore,40,113,1400,4.6,1,4.31,1774,124,0,3.53,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_272.json
+REC-1273,Energy,"Smart Appliance Energy Optimization",2026-10-04T00:48:00.000Z,Chennai,49,42,850,4.7,0,17.76,0,0,0,14.56,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_273.json
+REC-1274,Energy,"Home Electrical Audit & Wattage Check",2026-10-04T06:24:00.000Z,Chennai,30,95,740,5,1,11.59,0,0,0,9.5,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_274.json
+REC-1275,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-10-04T12:00:00.000Z,Hyderabad,47,45,910,4.2,1,14.2,0,0,0,11.64,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_275.json
+REC-1276,Water,"Water Tank Cleaning & Disinfection",2026-10-04T17:36:00.000Z,Hyderabad,55,113,1300,4.6,1,6.07,2193,398,0,4.98,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_276.json
+REC-1277,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-10-04T23:12:00.000Z,Mumbai,51,99,1060,4.4,1,28.97,0,0,0,23.76,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_277.json
+REC-1278,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-10-05T04:48:00.000Z,Coimbatore,45,106,1020,4.1,0,26.8,0,0,0,21.98,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_278.json
+REC-1279,Health,"Eco Pest Control & Termite Defense",2026-10-05T10:24:00.000Z,Mumbai,43,118,960,4.3,1,0,0,0,36.1,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_279.json
+REC-1280,Food,"Certified Nutritionist Cook Service",2026-10-05T16:00:00.000Z,Kochi,22,85,510,4.3,1,0,0,0,48.7,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_280.json
+REC-1281,Water,"Pipeline Leakage & Flow Optimization",2026-10-05T21:36:00.000Z,Bengaluru,34,96,1220,4.6,1,4.2,2053,188,0,3.44,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_281.json
+REC-1282,Food,"Food Pantry Sanitation & Preservation",2026-10-06T03:12:00.000Z,Chennai,34,87,800,4.5,1,0,0,0,35.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_282.json
+REC-1283,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-10-06T08:48:00.000Z,Kochi,34,61,970,4.3,0,18.87,0,0,0,15.47,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_283.json
+REC-1284,Energy,"Smart Appliance Energy Optimization",2026-10-06T14:24:00.000Z,Bengaluru,17,43,860,4.6,0,21.33,0,0,0,17.49,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_284.json
+REC-1285,Food,"Kitchen Hygiene & Food Prep Audit",2026-10-06T20:00:00.000Z,Hyderabad,21,84,940,4.9,1,0,0,0,36.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_285.json
+REC-1286,Food,"Certified Nutritionist Cook Service",2026-10-07T01:36:00.000Z,Bengaluru,54,81,630,4.5,0,0,0,0,63.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_286.json
+REC-1287,Energy,"Home Electrical Audit & Wattage Check",2026-10-07T07:12:00.000Z,Coimbatore,31,84,660,4.2,1,18.3,0,0,0,15.01,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_287.json
+REC-1288,Health,"Bathroom Deep Chemical Scrubbing",2026-10-07T12:48:00.000Z,Bengaluru,21,92,700,4.8,0,0,0,0,53.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_288.json
+REC-1289,Water,"Water Filter & RO Purifier Service",2026-10-07T18:24:00.000Z,Mumbai,27,70,1060,4.9,0,6.92,686,252,0,5.67,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_289.json
+REC-1290,Water,"Rainwater Filter & Recharge Service",2026-10-08T00:00:00.000Z,Mumbai,44,51,1440,4.5,1,3.07,2309,288,0,2.52,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_290.json
+REC-1291,Food,"Kitchen Hygiene & Food Prep Audit",2026-10-08T05:36:00.000Z,Chennai,40,56,840,4.6,1,0,0,0,55.8,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_291.json
+REC-1292,Food,"Kitchen Hygiene & Food Prep Audit",2026-10-08T11:12:00.000Z,Chennai,48,65,860,4.3,0,0,0,0,65,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_292.json
+REC-1293,Health,"Bathroom Deep Chemical Scrubbing",2026-10-08T16:48:00.000Z,Kochi,32,54,840,4.1,0,0,0,0,62.8,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_293.json
+REC-1294,Water,"Pipeline Leakage & Flow Optimization",2026-10-08T22:24:00.000Z,Coimbatore,16,104,1100,4.3,1,6.83,2048,228,0,5.6,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_294.json
+REC-1295,Energy,"Solar Inverter & Battery Maintenance",2026-10-09T04:00:00.000Z,Mumbai,54,75,1620,4.2,0,11.6,0,0,0,9.51,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_295.json
+REC-1296,Health,"Eco Pest Control & Termite Defense",2026-10-09T09:36:00.000Z,Bengaluru,29,72,840,4.9,0,0,0,0,41.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_296.json
+REC-1297,Energy,"Solar Inverter & Battery Maintenance",2026-10-09T15:12:00.000Z,Mumbai,50,102,1770,4.6,0,15.51,0,0,0,12.72,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_297.json
+REC-1298,Food,"Organic Meal Prep & Batch Cooking",2026-10-09T20:48:00.000Z,Bengaluru,36,77,1000,4.6,0,0,0,0,64.2,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_298.json
+REC-1299,Water,"Rainwater Filter & Recharge Service",2026-10-10T02:24:00.000Z,Chennai,55,42,1600,4.8,0,2.31,1857,277,0,1.89,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_299.json
+REC-1300,Health,"Eco Pest Control & Termite Defense",2026-10-10T08:00:00.000Z,Coimbatore,36,103,940,4.8,1,0,0,0,38.4,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_300.json
+REC-1301,Food,"Food Pantry Sanitation & Preservation",2026-10-10T13:36:00.000Z,Chennai,38,116,810,4.9,0,0,0,0,50.2,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_301.json
+REC-1302,Health,"Deep Clinical Sanitization",2026-10-10T19:12:00.000Z,Mumbai,46,109,1380,4.7,0,0,0,0,34.8,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_302.json
+REC-1303,Food,"Kitchen Hygiene & Food Prep Audit",2026-10-11T00:48:00.000Z,Bengaluru,17,89,820,4.6,0,0,0,0,73.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_303.json
+REC-1304,Water,"Rainwater Filter & Recharge Service",2026-10-11T06:24:00.000Z,Chennai,46,74,1470,4.2,0,3.43,2050,306,0,2.81,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_304.json
+REC-1305,Food,"Food Pantry Sanitation & Preservation",2026-10-11T12:00:00.000Z,Chennai,37,56,710,4.9,1,0,0,0,44,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_305.json
+REC-1306,Water,"Pipeline Leakage & Flow Optimization",2026-10-11T17:36:00.000Z,Mumbai,45,101,970,4.9,0,6.33,753,369,0,5.19,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_306.json
+REC-1307,Health,"Indoor Allergen & Mold Remediation",2026-10-11T23:12:00.000Z,Mumbai,51,51,1410,4.3,0,0,0,0,45.5,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_307.json
+REC-1308,Food,"Certified Nutritionist Cook Service",2026-10-12T04:48:00.000Z,Mumbai,24,116,470,4,1,0,0,0,52.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_308.json
+REC-1309,Energy,"Smart Appliance Energy Optimization",2026-10-12T10:24:00.000Z,Kochi,23,41,840,4.3,0,22.08,0,0,0,18.11,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_309.json
+REC-1310,Water,"Water Tank Cleaning & Disinfection",2026-10-12T16:00:00.000Z,Hyderabad,57,76,1210,4.7,0,2.34,567,371,0,1.92,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_310.json
+REC-1311,Energy,"Smart Appliance Energy Optimization",2026-10-12T21:36:00.000Z,Chennai,23,76,910,4.1,0,28.49,0,0,0,23.36,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_311.json
+REC-1312,Water,"Water Tank Cleaning & Disinfection",2026-10-13T03:12:00.000Z,Mumbai,26,67,1330,4.5,0,4.37,1431,240,0,3.58,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_312.json
+REC-1313,Food,"Certified Nutritionist Cook Service",2026-10-13T08:48:00.000Z,Coimbatore,34,115,670,4.4,0,0,0,0,76.6,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_313.json
+REC-1314,Water,"Water Tank Cleaning & Disinfection",2026-10-13T14:24:00.000Z,Mumbai,47,42,1240,4,1,6.6,1064,205,0,5.41,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_314.json
+REC-1315,Energy,"Smart Appliance Energy Optimization",2026-10-13T20:00:00.000Z,Hyderabad,22,87,830,4.1,1,27,0,0,0,22.14,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_315.json
+REC-1316,Water,"Water Filter & RO Purifier Service",2026-10-14T01:36:00.000Z,Chennai,49,128,870,4.4,0,5.57,2078,360,0,4.57,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_316.json
+REC-1317,Water,"Water Filter & RO Purifier Service",2026-10-14T07:12:00.000Z,Mumbai,24,110,970,4.2,1,4.63,1758,122,0,3.8,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_317.json
+REC-1318,Water,"Water Tank Cleaning & Disinfection",2026-10-14T12:48:00.000Z,Chennai,20,111,1320,4.4,0,4.37,1508,163,0,3.58,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_318.json
+REC-1319,Health,"Deep Clinical Sanitization",2026-10-14T18:24:00.000Z,Kochi,24,54,1300,4.8,0,0,0,0,31.1,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_319.json
+REC-1320,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-10-15T00:00:00.000Z,Chennai,22,76,1070,5,0,24.41,0,0,0,20.02,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_320.json
+REC-1321,Food,"Organic Meal Prep & Batch Cooking",2026-10-15T05:36:00.000Z,Hyderabad,44,50,900,4.3,1,0,0,0,40.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_321.json
+REC-1322,Health,"Eco Pest Control & Termite Defense",2026-10-15T11:12:00.000Z,Hyderabad,41,74,1020,4.5,0,0,0,0,45.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_322.json
+REC-1323,Health,"Deep Clinical Sanitization",2026-10-15T16:48:00.000Z,Bengaluru,36,103,1200,4.2,0,0,0,0,46.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_323.json
+REC-1324,Food,"Organic Meal Prep & Batch Cooking",2026-10-15T22:24:00.000Z,Bengaluru,39,73,1000,4.2,0,0,0,0,68.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_324.json
+REC-1325,Water,"Pipeline Leakage & Flow Optimization",2026-10-16T04:00:00.000Z,Kochi,17,94,970,4.9,1,3.21,2357,229,0,2.63,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_325.json
+REC-1326,Energy,"Home Electrical Audit & Wattage Check",2026-10-16T09:36:00.000Z,Chennai,26,63,840,4,0,10.99,0,0,0,9.01,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_326.json
+REC-1327,Water,"Pipeline Leakage & Flow Optimization",2026-10-16T15:12:00.000Z,Kochi,31,107,1070,4,1,6.88,1201,372,0,5.64,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_327.json
+REC-1328,Health,"Bathroom Deep Chemical Scrubbing",2026-10-16T20:48:00.000Z,Kochi,23,75,830,4,1,0,0,0,35,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_328.json
+REC-1329,Food,"Organic Meal Prep & Batch Cooking",2026-10-17T02:24:00.000Z,Hyderabad,57,63,910,5,1,0,0,0,46.8,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_329.json
+REC-1330,Energy,"Home Electrical Audit & Wattage Check",2026-10-17T08:00:00.000Z,Mumbai,56,58,660,4.8,0,29.67,0,0,0,24.33,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_330.json
+REC-1331,Health,"Deep Clinical Sanitization",2026-10-17T13:36:00.000Z,Chennai,16,104,1390,4.1,1,0,0,0,39.3,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_331.json
+REC-1332,Energy,"Smart Appliance Energy Optimization",2026-10-17T19:12:00.000Z,Coimbatore,44,71,1020,4.4,1,24.61,0,0,0,20.18,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_332.json
+REC-1333,Food,"Certified Nutritionist Cook Service",2026-10-18T00:48:00.000Z,Hyderabad,58,61,680,4.9,0,0,0,0,35.5,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_333.json
+REC-1334,Water,"Water Filter & RO Purifier Service",2026-10-18T06:24:00.000Z,Coimbatore,49,96,1120,4.4,0,4.88,526,274,0,4,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_334.json
+REC-1335,Health,"Eco Pest Control & Termite Defense",2026-10-18T12:00:00.000Z,Chennai,19,109,1070,4.6,0,0,0,0,66.3,0,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_335.json
+REC-1336,Energy,"Solar Inverter & Battery Maintenance",2026-10-18T17:36:00.000Z,Kochi,18,49,1690,4.1,1,10.95,0,0,0,8.98,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_336.json
+REC-1337,Energy,"Home Electrical Audit & Wattage Check",2026-10-18T23:12:00.000Z,Hyderabad,55,95,780,4.5,0,23.73,0,0,0,19.46,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_337.json
+REC-1338,Energy,"Smart Appliance Energy Optimization",2026-10-19T04:48:00.000Z,Hyderabad,37,96,1010,4.7,1,23.53,0,0,0,19.29,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_338.json
+REC-1339,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-10-19T10:24:00.000Z,Coimbatore,21,54,1190,4.1,0,8.82,0,0,0,7.23,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_339.json
+REC-1340,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-10-19T16:00:00.000Z,Coimbatore,53,118,970,4.8,0,10.98,0,0,0,9,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_340.json
+REC-1341,Water,"Water Tank Cleaning & Disinfection",2026-10-19T21:36:00.000Z,Chennai,29,69,1270,4.4,0,4.06,1909,370,0,3.33,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_341.json
+REC-1342,Food,"Certified Nutritionist Cook Service",2026-10-20T03:12:00.000Z,Kochi,17,128,630,4.6,0,0,0,0,61.7,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_342.json
+REC-1343,Water,"Pipeline Leakage & Flow Optimization",2026-10-20T08:48:00.000Z,Mumbai,53,79,950,4.7,0,4.14,1308,185,0,3.39,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_343.json
+REC-1344,Energy,"AC Deep Coil Cleaning & Gas Tuning",2026-10-20T14:24:00.000Z,Bengaluru,48,74,1020,4.9,1,13.12,0,0,0,10.76,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_344.json
+REC-1345,Health,"Eco Pest Control & Termite Defense",2026-10-20T20:00:00.000Z,Mumbai,44,124,910,4.6,1,0,0,0,61.9,0,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_345.json
+REC-1346,Food,"Food Pantry Sanitation & Preservation",2026-10-21T01:36:00.000Z,Chennai,17,52,640,4.5,0,0,0,0,37.8,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_346.json
+REC-1347,Energy,"Solar Inverter & Battery Maintenance",2026-10-21T07:12:00.000Z,Bengaluru,45,58,1750,4.9,1,27.51,0,0,0,22.56,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_347.json
+REC-1348,Water,"Pipeline Leakage & Flow Optimization",2026-10-21T12:48:00.000Z,Chennai,27,102,970,5,0,6.6,1047,424,0,5.41,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_348.json
+REC-1349,Health,"Eco Pest Control & Termite Defense",2026-10-21T18:24:00.000Z,Kochi,51,129,920,4.6,1,0,0,0,25.8,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_349.json
+REC-1350,Energy,"Home Electrical Audit & Wattage Check",2026-10-22T00:00:00.000Z,Bengaluru,34,94,580,4.7,0,32.24,0,0,0,26.44,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_350.json
+REC-1351,Energy,"Smart Appliance Energy Optimization",2026-10-22T05:36:00.000Z,Mumbai,16,119,880,4.7,1,23.57,0,0,0,19.33,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_351.json
+REC-1352,Food,"Food Pantry Sanitation & Preservation",2026-10-22T11:12:00.000Z,Hyderabad,42,98,740,4.1,0,0,0,0,64,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_352.json
+REC-1353,Water,"Water Tank Cleaning & Disinfection",2026-10-22T16:48:00.000Z,Hyderabad,43,60,1260,4,0,5.54,1441,339,0,4.54,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_353.json
+REC-1354,Energy,"Solar Inverter & Battery Maintenance",2026-10-22T22:24:00.000Z,Chennai,37,42,1750,4.9,1,20.27,0,0,0,16.62,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_354.json
+REC-1355,Health,"Deep Clinical Sanitization",2026-10-23T04:00:00.000Z,Hyderabad,56,84,1300,5,0,0,0,0,56.9,0,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_355.json
+REC-1356,Energy,"Smart Appliance Energy Optimization",2026-10-23T09:36:00.000Z,Kochi,34,114,990,4.5,1,10.6,0,0,0,8.69,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_356.json
+REC-1357,Energy,"Smart Appliance Energy Optimization",2026-10-23T15:12:00.000Z,Hyderabad,39,86,920,4.7,1,27.78,0,0,0,22.78,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_357.json
+REC-1358,Energy,"Home Electrical Audit & Wattage Check",2026-10-23T20:48:00.000Z,Chennai,23,113,800,4.3,1,32.9,0,0,0,26.98,gcp-storage,gs://nearbee-analytics-lake/events/2026/10/rec_358.json
+REC-1359,Energy,"Home Electrical Audit & Wattage Check",2026-10-24T02:24:00.000Z,Kochi,35,92,660,4,0,30.08,0,0,0,24.67,azure-blob,https://nearbeeblob.blob.core.windows.net/telemetry/events/2026/10/rec_359.json
+REC-1360,Energy,"Home Electrical Audit & Wattage Check",2026-10-24T08:00:00.000Z,Chennai,36,101,840,4.9,0,13.35,0,0,0,10.95,aws-s3,s3://nearbee-iot-lake-production/events/2026/10/rec_360.json

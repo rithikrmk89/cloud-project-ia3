@@ -1,0 +1,36 @@
+# ==============================================================================
+# Render Blueprint Specification (Infrastructure-as-Code)
+# Project: NearBee - Sustainable Living & Multi-Service Cloud Platform
+# Course: Cloud Computing for Data Analytics (23DC2043)
+# ==============================================================================
+
+services:
+  - type: web
+    name: nearbee-cloud-app
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon # or frankfurt / singapore / ohio
+    branch: main
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: "10000"
+      - key: NODE_ENV
+        value: "production"
+      - key: NITRO_PRESET
+        value: "node-server"
+      - key: SUPABASE_PROJECT_ID
+        value: "ojfosxqlobynhjlnooro"
+      - key: SUPABASE_URL
+        value: "https://ojfosxqlobynhjlnooro.supabase.co"
+      - key: SUPABASE_PUBLISHABLE_KEY
+        value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9qZm9zeHFsb2J5bmhqbG5vb3JvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIwMjA3OTksImV4cCI6MjA5NzU5Njc5OX0.KbRIrzvZT6DNXFYHrNHFtQ_tiBxy3SB4mMb4NvbjWYg"
+      - key: VITE_SUPABASE_PROJECT_ID
+        value: "ojfosxqlobynhjlnooro"
+      - key: VITE_SUPABASE_URL
+        value: "https://ojfosxqlobynhjlnooro.supabase.co"
+      - key: VITE_SUPABASE_PUBLISHABLE_KEY
+        value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9qZm9zeHFsb2J5bmhqbG5vb3JvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIwMjA3OTksImV4cCI6MjA5NzU5Njc5OX0.KbRIrzvZT6DNXFYHrNHFtQ_tiBxy3SB4mMb4NvbjWYg"
+

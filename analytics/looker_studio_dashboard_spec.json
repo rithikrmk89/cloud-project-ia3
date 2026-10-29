@@ -1,0 +1,76 @@
+{
+  "dashboardTitle": "NearBee Multi-Domain Cloud Analytics Dashboard",
+  "course": "Cloud Computing for Data Analytics (23DC2043)",
+  "dataSource": {
+    "type": "Google Cloud Storage / BigQuery / Google Sheets CSV Connector",
+    "datasetUri": "data/clean_looker_studio_feed.csv",
+    "cloudStorageSync": "gs://nearbee-analytics-lake/curated/clean_looker_studio_feed.csv",
+    "refreshFrequency": "Hourly (Automated Cloud Pipeline)"
+  },
+  "calculatedFields": [
+    {
+      "name": "CostEfficiencyIndex",
+      "formula": "RevenueINR / ResponseTimeMinutes",
+      "type": "NUMBER"
+    },
+    {
+      "name": "DomainCategoryGroup",
+      "formula": "CASE WHEN Domain = 'Water' THEN 'Water Sanitation' WHEN Domain = 'Health' THEN 'Public Health & Hygiene' WHEN Domain = 'Food' THEN 'Nutritious & Safe Food' ELSE 'Clean Household Energy' END",
+      "type": "TEXT"
+    },
+    {
+      "name": "HighUrgencyRate",
+      "formula": "COUNT(CASE WHEN Urgent = 'Yes' THEN RecordID END) / COUNT(RecordID)",
+      "type": "PERCENT"
+    }
+  ],
+  "visualizations": [
+    {
+      "id": "kpi_total_revenue",
+      "chartType": "SCORECARD",
+      "metric": "SUM(RevenueINR)",
+      "label": "Total Cloud Dispatched Revenue (₹)"
+    },
+    {
+      "id": "kpi_water_purified",
+      "chartType": "SCORECARD",
+      "metric": "SUM(WaterPurifiedLiters)",
+      "label": "Liters of Water Sanitized"
+    },
+    {
+      "id": "kpi_energy_saved",
+      "chartType": "SCORECARD",
+      "metric": "SUM(EnergySavedKWh)",
+      "label": "kWh Clean Energy Saved"
+    },
+    {
+      "id": "kpi_co2_offset",
+      "chartType": "SCORECARD",
+      "metric": "SUM(CO2AvoidedKg)",
+      "label": "kg CO2 Emissions Avoided"
+    },
+    {
+      "id": "chart_domain_breakdown",
+      "chartType": "PIE_DONUT_CHART",
+      "dimension": "Domain",
+      "metric": "COUNT(RecordID)",
+      "title": "Dispatched Service Distribution by Domain"
+    },
+    {
+      "id": "chart_city_performance",
+      "chartType": "BAR_CHART",
+      "dimension": "City",
+      "metrics": ["AVG(ResponseTimeMinutes)", "AVG(CustomerRating)"],
+      "title": "Regional SLA Response Time vs Customer Rating"
+    },
+    {
+      "id": "chart_time_trend",
+      "chartType": "TIME_SERIES_LINE",
+      "timeDimension": "Date",
+      "breakdownDimension": "Domain",
+      "metric": "COUNT(RecordID)",
+      "title": "Daily Telemetry Ingestion Volume Across Cloud Storage"
+    }
+  ]
+}
+
