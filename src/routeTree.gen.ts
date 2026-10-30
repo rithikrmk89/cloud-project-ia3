@@ -23,6 +23,7 @@ import { Route as AuthProviderPendingRouteImport } from './routes/auth.provider-
 import { Route as AuthForgotPasswordRouteImport } from './routes/auth.forgot-password'
 import { Route as AuthAdminSigninRouteImport } from './routes/auth.admin-signin'
 import { Route as ApiChatRouteImport } from './routes/api/chat'
+import { Route as ApiAwsS3SyncRouteImport } from './routes/api/aws-s3-sync'
 import { Route as AuthenticatedServicesRouteImport } from './routes/_authenticated/services'
 import { Route as AuthenticatedReviewsRouteImport } from './routes/_authenticated/reviews'
 import { Route as AuthenticatedInvoicesRouteImport } from './routes/_authenticated/invoices'
@@ -113,6 +114,11 @@ const AuthAdminSigninRoute = AuthAdminSigninRouteImport.update({
 const ApiChatRoute = ApiChatRouteImport.update({
   id: '/api/chat',
   path: '/api/chat',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiAwsS3SyncRoute = ApiAwsS3SyncRouteImport.update({
+  id: '/api/aws-s3-sync',
+  path: '/api/aws-s3-sync',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthenticatedServicesRoute = AuthenticatedServicesRouteImport.update({
@@ -253,6 +259,7 @@ export interface FileRoutesByFullPath {
   '/invoices': typeof AuthenticatedInvoicesRoute
   '/reviews': typeof AuthenticatedReviewsRoute
   '/services': typeof AuthenticatedServicesRoute
+  '/api/aws-s3-sync': typeof ApiAwsS3SyncRoute
   '/api/chat': typeof ApiChatRoute
   '/auth/admin-signin': typeof AuthAdminSigninRoute
   '/auth/forgot-password': typeof AuthForgotPasswordRoute
@@ -289,6 +296,7 @@ export interface FileRoutesByTo {
   '/invoices': typeof AuthenticatedInvoicesRoute
   '/reviews': typeof AuthenticatedReviewsRoute
   '/services': typeof AuthenticatedServicesRoute
+  '/api/aws-s3-sync': typeof ApiAwsS3SyncRoute
   '/api/chat': typeof ApiChatRoute
   '/auth/admin-signin': typeof AuthAdminSigninRoute
   '/auth/forgot-password': typeof AuthForgotPasswordRoute
@@ -328,6 +336,7 @@ export interface FileRoutesById {
   '/_authenticated/invoices': typeof AuthenticatedInvoicesRoute
   '/_authenticated/reviews': typeof AuthenticatedReviewsRoute
   '/_authenticated/services': typeof AuthenticatedServicesRoute
+  '/api/aws-s3-sync': typeof ApiAwsS3SyncRoute
   '/api/chat': typeof ApiChatRoute
   '/auth/admin-signin': typeof AuthAdminSigninRoute
   '/auth/forgot-password': typeof AuthForgotPasswordRoute
@@ -367,6 +376,7 @@ export interface FileRouteTypes {
     | '/invoices'
     | '/reviews'
     | '/services'
+    | '/api/aws-s3-sync'
     | '/api/chat'
     | '/auth/admin-signin'
     | '/auth/forgot-password'
@@ -403,6 +413,7 @@ export interface FileRouteTypes {
     | '/invoices'
     | '/reviews'
     | '/services'
+    | '/api/aws-s3-sync'
     | '/api/chat'
     | '/auth/admin-signin'
     | '/auth/forgot-password'
@@ -441,6 +452,7 @@ export interface FileRouteTypes {
     | '/_authenticated/invoices'
     | '/_authenticated/reviews'
     | '/_authenticated/services'
+    | '/api/aws-s3-sync'
     | '/api/chat'
     | '/auth/admin-signin'
     | '/auth/forgot-password'
@@ -471,6 +483,7 @@ export interface RootRouteChildren {
   AuthRoute: typeof AuthRouteWithChildren
   CloudDashboardRoute: typeof CloudDashboardRoute
   ResetPasswordRoute: typeof ResetPasswordRoute
+  ApiAwsS3SyncRoute: typeof ApiAwsS3SyncRoute
   ApiChatRoute: typeof ApiChatRoute
 }
 
@@ -572,6 +585,13 @@ declare module '@tanstack/react-router' {
       path: '/api/chat'
       fullPath: '/api/chat'
       preLoaderRoute: typeof ApiChatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/aws-s3-sync': {
+      id: '/api/aws-s3-sync'
+      path: '/api/aws-s3-sync'
+      fullPath: '/api/aws-s3-sync'
+      preLoaderRoute: typeof ApiAwsS3SyncRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_authenticated/services': {
@@ -838,6 +858,7 @@ const rootRouteChildren: RootRouteChildren = {
   AuthRoute: AuthRouteWithChildren,
   CloudDashboardRoute: CloudDashboardRoute,
   ResetPasswordRoute: ResetPasswordRoute,
+  ApiAwsS3SyncRoute: ApiAwsS3SyncRoute,
   ApiChatRoute: ApiChatRoute,
 }
 export const routeTree = rootRouteImport

@@ -164,14 +164,14 @@ function CloudAnalyticsDashboard() {
 
   const simulateCloudIngestion = () => {
     setLoadingIngest(true);
-    setIngestStatus("Connecting to AWS S3 & GCP Storage endpoints...");
+    setIngestStatus("Connecting to AWS S3 Bucket: s3://nearbee-cloud-analytics-306451251863...");
     setTimeout(() => {
-      setIngestStatus("Ingesting raw telemetry batch into s3://nearbee-cloud-analytics-lake-23dc2043/...");
-    }, 800);
+      setIngestStatus("Ingesting telemetry records into s3://nearbee-cloud-analytics-306451251863/raw/telemetry/nearbee_cloud_analytics_dataset.csv...");
+    }, 700);
     setTimeout(() => {
-      setIngestStatus("AWS Lambda Serverless Trigger executed -> Transformed & Loaded to Looker Studio Feed (HTTP 200 OK)");
+      setIngestStatus("AWS Lambda trigger (nearbee-telemetry-processor) executed -> Output sink updated (HTTP 200 SUCCESS)");
       setLoadingIngest(false);
-    }, 1800);
+    }, 1600);
   };
 
   return (
@@ -366,8 +366,8 @@ function CloudAnalyticsDashboard() {
             </div>
 
             <div className="mt-4 flex items-center justify-between text-xs text-white/70">
-              <span>Ingestion Lake: <code className="text-bee">s3://nearbee-analytics-lake</code></span>
-              <span>Sync Interval: <strong>Real-time webhook</strong></span>
+              <span>Ingestion Lake: <a href="https://s3.console.aws.amazon.com/s3/buckets/nearbee-cloud-analytics-306451251863?region=us-east-1" target="_blank" rel="noreferrer" className="text-bee underline">s3://nearbee-cloud-analytics-306451251863</a></span>
+              <span className="text-emerald-400 font-semibold">● AWS S3 Connected</span>
             </div>
           </div>
         </section>
